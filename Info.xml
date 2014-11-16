@@ -3,7 +3,7 @@
   <route name="LSGG Infos">
     <screenText screenPos="200,30" font="Arial" fontSize="22" color="10,10,100" text="Geneva"/>
     <screenText screenPos="250,50" font="Arial" fontSize="16" color="10,10,100" text="APP: 136.25 / DEP: 119.525 / TWR: 119.90 / GND: 121.675"/>
-    <screenText screenPos="250,70" font="Arial" fontSize="16" color="10,10,100" text="VFR enter TMA at 3500 ft QNH"/>
+    <screenText screenPos="250,90" font="Arial" fontSize="16" color="10,10,100" text="VFR enter TMA at 3500 ft QNH, pattern 2500, final 2000"/>
     <screenText screenPos="650,750" font="Arial" fontSize="14" color="150,150,150" text="PAS/Passeiry, SPR/Saint-Prex, GVA/Geneva, CBY/Chambery"/>
   </route>
 
