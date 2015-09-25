@@ -3,6 +3,8 @@
     <!-- Points -->
     <addPoint code="ABTAN" point="N47°06'49.00'',E14°29'44.00''" />
     <addPoint code="NATEX" point="N47°44'49.00'',E17°30'00.00''" />
+    <addPoint code="OEW" point="48.10451700,016.58952200" />
+    <addPoint code="OEZ" point="48.08541700,016.59270000" />
     <addPoint code="WW410" point="N47°09'45.01'',E14°46'46.98''" />
     <addPoint code="WW411F" point="N46°57'13.86'',E16°08'12.97''" /> <!-- Fixed position for WW411 -->
     <addPoint code="WW450" point="N47°53'40.00'',E15°28'51.00''" />
@@ -12,10 +14,12 @@
     <addPoint code="WW679" point="N48°19'17.45'',E16°21'47.40''" />
     <addPoint code="WW681" point="N48°17'41.38'',E16°13'19.97''" />
     <addPoint code="WW682" point="N48°06'41.40'',E16°45'00.42''" />
+    <addPoint code="WW948" point="N48°10'54.23'',E16°21'05.86''" />
     <addPoint code="WW964" point="N47°51'41.05'',E16°38'18.48''" />
     <addPoint code="WW965" point="N48°18'58.99'',E16°39'02.43''" />
     <addPoint code="WW966" point="N47°48'51.10'',E16°46'24.08''" />
     <addPoint code="WW967" point="N48°26'56.31'',E16°40'15.14''" />
+    <addPoint code="WW968" point="N48°14'56.08'',E16°31'24.21''" />
     <addPoint code="WW983" point="N48°06'38.15'',E16°42'40.10''" />
     <addPoint code="WW985" point="N48°16'15.72'',E16°38'38.30''" />
     <addPoint code="WW987" point="N48°27'47.10'',E16°33'46.60''" />
@@ -23,8 +27,44 @@
     <addPoint code="WW989" point="N47°58'41.50'',E16°55'35.34''" />
     <addPoint code="WW991" point="N47°52'13.30'',E16°58'42.74''" />
     <!-- Approaches -->
-    <!--<route name="ILS xx" displayMode="optional" color="255,242,0">
-    </route>-->
+    <route name="Approach 11" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>11</activeLandingRunways>
+        <navaids>FMD</navaids>
+        <line start="WW650" end="LOWW-RW29" arrows="end" />
+        <minAlt position="13NM296@OEW" value="5.0" color="255,242,0" />
+        <line start="LOWW-RW11" end="10NM116@OEW" stroke="dashed" color="255,128,128" arrows="end" />
+        <intercept start="10NM116@OEW" startHeading="116" radius="2.75" direction="left" endHeading="266" end="FMD" stroke="dashed" color="255,128,128" arrows="end" />
+        <loop navpoint="FMD" inboundHeading="160" minHeight="5000" maxHeight="5000" right="false" length="4" stroke="dashed" color="255,128,128" arrows="both" />
+    </route>
+    <route name="Approach 16" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>FMD</navaids>
+        <line start="WW670" end="LOWW-RW34" arrows="end" />
+        <minAlt position="13.8NM344@OEZ" value="5.0" color="255,242,0" />
+        <line start="LOWW-RW11" end="10NM164@OEZ" stroke="dashed" color="255,128,128" arrows="end" />
+        <intercept start="10NM164@OEZ" startHeading="164" radius="1.75" direction="left" endHeading="334" end="FMD" stroke="dashed" color="255,128,128" arrows="end" />
+        <loop navpoint="FMD" inboundHeading="160" minHeight="5000" maxHeight="5000" right="false" length="4" stroke="dashed" color="255,128,128" arrows="both" />
+    </route>
+    <route name="Approach 29" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>29</activeLandingRunways>
+        <navaids>FMD</navaids>
+        <line start="WW950" end="LOWW-RW11" arrows="end" />
+        <minAlt position="WW951" value="2.7" color="255,242,0" />
+        <minAlt position="WW950" value="2.0" color="255,242,0" />
+        <line start="LOWW-RW29" end="WW948" stroke="dashed" color="255,128,128" arrows="end" />
+        <intercept start="WW948" startHeading="296" radius="2.25" direction="right" endHeading="134" end="FMD" stroke="dashed" color="255,128,128" arrows="end" />
+        <loop navpoint="FMD" inboundHeading="160" minHeight="5000" maxHeight="5000" right="false" length="4" stroke="dashed" color="255,128,128" arrows="both" />
+    </route>
+    <route name="Approach 34" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>FMD</navaids>
+        <line start="WW970" end="LOWW-RW16" arrows="end" />
+        <minAlt position="WW971" value="3.0" color="255,242,0" />
+        <minAlt position="WW970" value="3.0" color="255,242,0" />
+        <line start="LOWW-RW34" end="WW968" stroke="dashed" color="255,128,128" arrows="end" />
+        <intercept start="WW968" startHeading="344" radius="1.75" direction="right" endHeading="174" end="FMD" stroke="dashed" color="255,128,128" arrows="end" />
+        <loop navpoint="FMD" inboundHeading="160" minHeight="5000" maxHeight="5000" right="false" length="4" stroke="dashed" color="255,128,128" arrows="both" />
+    </route>
     <!-- Transition to final approaches -->
     <route name="BALAD 3K" displayMode="star">
         <activeLandingRunways>11</activeLandingRunways>
@@ -388,9 +428,5 @@
     </route>
     <!-- Restricted/prohibited areas -->
     <route name="Prohibited areas" color="255,0,0">
-        <bow center="N41°12'10'',E0°34'07''" radius="3" startAngle="0" extentAngle="360" />
-        <minAlt position="N41°12'10'',E0°34'07''" value="4.0" color="255,0,0" />
-        <bow center="N40°57'09'',E0°51'59''" radius="3" startAngle="0" extentAngle="360" />
-        <minAlt position="N40°57'09'',E0°51'59''" value="3.5" color="255,0,0" />
     </route>
 </routes>
