@@ -5,6 +5,8 @@
     <addPoint code="NATEX" point="N47°44'49.00'',E17°30'00.00''" />
     <addPoint code="OEW" point="48.10451700,016.58952200" />
     <addPoint code="OEZ" point="48.08541700,016.59270000" />
+    <addPoint code="WW171" point="N48°34'10.55'',E15°53'21.14''" />
+    <addPoint code="WW181F" point="N48°34'10.55'',E15°53'21.14''" /> <!-- Fixed position for WW181 -->
     <addPoint code="WW410" point="N47°09'45.01'',E14°46'46.98''" />
     <addPoint code="WW411F" point="N46°57'13.86'',E16°08'12.97''" /> <!-- Fixed position for WW411 -->
     <addPoint code="WW450" point="N47°53'40.00'',E15°28'51.00''" />
@@ -227,7 +229,7 @@
         <loop navpoint="PESAT" inboundHeading="270" right="false" minHeight="6000" arrows="both" />
         <line start="PESAT" end="WW684" text="PESAT 5L, 329°" arrows="end" />
         <line start="WW684" end="WW682" />
-        <include route="16 common south" />
+        <include routeName="16 common south" />
     </route>
     <route name="34 common final">
         <activeLandingRunways>34</activeLandingRunways>
@@ -242,7 +244,7 @@
         <intercept start="2.5NM255@WW975" startHeading="255" radius="2" direction="right" endHeading="344" end="WW973" />
         <minAlt position="WW973" value="4.0" />
         <line start="WW973" end="WW972" text="160°" />
-        <include route="34 common final" />
+        <include routeName="34 common final" />
     </route>
     <route name="34 common north">
         <activeLandingRunways>34</activeLandingRunways>
@@ -250,7 +252,7 @@
         <line start="WW985" end="WW983" />
         <line start="WW983" end="WW981" />
         <line start="WW981" end="WW979" />
-        <include route="34 common final" />
+        <include routeName="34 common final" />
     </route>
     <route name="BALAD 3N" displayMode="star">
         <activeLandingRunways>34</activeLandingRunways>
@@ -264,21 +266,21 @@
         <intercept start="2.5NM075@WW976" startHeading="075" radius="2" direction="left" endHeading="344" end="WW973" />
         <minAlt position="WW973" value="4.0" />
         <line start="WW973" end="WW972" text="160°" />
-        <include route="34 common final" />
+        <include routeName="34 common final" />
     </route>
     <route name="MABOD 4N" displayMode="star">
         <activeLandingRunways>34</activeLandingRunways>
         <navaids>MABOD,WW987,WW985,WW983,WW981,WW979,WW977,WW975,WW974,WW973,WW972,WW971,WW970</navaids>
         <loop navpoint="MABOD" inboundHeading="164" minHeight="6000" arrows="both" />
         <line start="MABOD" end="WW987" text="MABOD 4N, 213°" arrows="end" />
-        <include route="34 common north" />
+        <include routeName="34 common north" />
     </route>
     <route name="NERDU 4N" displayMode="star">
         <activeLandingRunways>34</activeLandingRunways>
         <navaids>NERDU,WW987,WW985,WW983,WW981,WW979,WW977,WW975,WW974,WW973,WW972,WW971,WW970</navaids>
         <loop navpoint="NERDU" inboundHeading="104" minHeight="6000" arrows="both" />
         <line start="NERDU" end="WW987" text="NERDU 4N, 089°" arrows="end" />
-        <include route="34 common north" />
+        <include routeName="34 common north" />
     </route>
     <route name="PESAT 4N" displayMode="star">
         <activeLandingRunways>34</activeLandingRunways>
@@ -287,7 +289,7 @@
         <line start="PESAT" end="WW991" text="PESAT 4N, 338°" arrows="end" />
         <intercept start="WW991" startHeading="342" radius="2" direction="left" endHeading="255" end="3NM255@WW989" />
         <intercept start="3NM255@WW989" startHeading="255" radius="2" direction="left" endHeading="164" end="WW979" />
-        <include route="34 common south" />
+        <include routeName="34 common south" />
     </route>
     <!-- STARs -->
     <route name="ABTAN 1W" displayMode="star">
