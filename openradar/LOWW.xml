@@ -2,11 +2,18 @@
 <routes>
     <!-- Points -->
     <addPoint code="ABTAN" point="N47°06'49.00'',E14°29'44.00''" />
+    <addPoint code="ADAMA" point="N47°59'16.00'',E17°20'29.00''" />
+    <addPoint code="KOXER" point="N48°07'39.00'',E17°02'54.00''" />
     <addPoint code="NATEX" point="N47°44'49.00'',E17°30'00.00''" />
     <addPoint code="OEW" point="48.10451700,016.58952200" />
     <addPoint code="OEZ" point="48.08541700,016.59270000" />
     <addPoint code="WW171" point="N48°34'10.55'',E15°53'21.14''" />
+    <addPoint code="WW172" point="N47°52'19.93'',E15°57'44.67''" />
+    <addPoint code="WW173" point="N47°49'28.00'',E15°45'45.45''" />
+    <addPoint code="WW175" point="N47°44'11.33'',E15°52'01.73''" />
     <addPoint code="WW181F" point="N48°34'10.55'',E15°53'21.14''" /> <!-- Fixed position for WW181 -->
+    <addPoint code="WW386" point="N48°04'59.52'',E16°46'21.16''" />
+    <addPoint code="WW390" point="N48°00'40.43'',E17°02'11.52''" />
     <addPoint code="WW410" point="N47°09'45.01'',E14°46'46.98''" />
     <addPoint code="WW411F" point="N46°57'13.86'',E16°08'12.97''" /> <!-- Fixed position for WW411 -->
     <addPoint code="WW450" point="N47°53'40.00'',E15°28'51.00''" />
@@ -408,6 +415,128 @@
         <loop navpoint="NIGSI" inboundHeading="015" minHeight="10000" maxHeight="18000" arrows="both" />
         <minAlt position="NIGSI" value="8.0" />
         <line start="NIGSI" end="BALAD" text="XANUT 1W, 015°" arrows="end" />
+    </route>
+    <!-- SIDs, runway 11 -->
+    <route name="11 to WW152">
+        <activeStartRunways>11</activeStartRunways>
+        <line start="LOWW-RW11" end="WW151" />
+        <intercept start="WW151" startHeading="117" radius="2" direction="left" endHeading="357" end="WW152" text="353°" />
+    </route>
+    <route name="11 to WW171">
+        <activeStartRunways>11</activeStartRunways>
+        <include routeName="11 to WW152" />
+        <intercept start="WW152" startHeading="357" radius="2" direction="left" endHeading="285" end="WW171" text="281°" />
+    </route>
+    <route name="11 to WW262">
+        <activeStartRunways>11</activeStartRunways>
+        <line start="LOWW-RW11" end="WW100" />
+        <intercept start="WW100" startHeading="116" radius="2" direction="right" endHeading="221" end="WW262" text="217°" />
+    </route>
+    <route name="11 to WW101">
+        <activeStartRunways>11</activeStartRunways>
+        <line start="LOWW-RW11" end="WW100" />
+        <intercept start="WW100" startHeading="116" radius="2" direction="right" endHeading="251" end="WW101" />
+    </route>
+    <route name="11 to WW172">
+        <activeStartRunways>11</activeStartRunways>
+        <include routeName="11 to WW101" />
+        <line start="WW101" end="WW172" text="251°" />
+    </route>
+    <route name="ADAMA 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW390,ADAMA</navaids>
+        <line start="LOWW-RW11" end="WW100" />
+        <line start="WW100" end="WW390" text="102°" />
+        <line start="WW390" end="ADAMA" text="ADAMA 1A, 092°" arrows="end" />
+    </route>
+    <route name="DITIS 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW151,WW152,WW170,WW171,WW181F,DITIS</navaids>
+        <include routeName="11 to WW171" />
+        <line start="WW171" end="WW181F" text="301°" />
+        <line start="WW181F" end="DITIS" text="DITIS 1A, 298°" arrows="end" />
+    </route>
+    <route name="KOXER 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW386,KOXER</navaids>
+        <line start="LOWW-RW11" end="WW100" />
+        <line start="WW100" end="WW386" text="090°" />
+        <line start="WW386" end="KOXER" text="KOXER 1A, 073°" arrows="end" />
+    </route>
+    <route name="LANUX 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW151,WW152,WW170,WW171,LANUX</navaids>
+        <include routeName="11 to WW171" />
+        <line start="WW171" end="LANUX" text="LANUX 1A, 327°" arrows="end" />
+    </route>
+    <route name="LEDVA 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW151,WW152,WW170,LEDVA</navaids>
+        <include routeName="11 to WW152" />
+        <line start="WW152" end="WW170" />
+        <line start="WW170" end="LEDVA" text="LEDVA 1A, 014°" arrows="end" />
+    </route>
+    <route name="LUGIM 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW274,WW177,LUGIM</navaids>
+        <include routeName="11 to WW101" />
+        <line start="WW101" end="WW274" text="279°" />
+        <minAlt position="WW274" value="4.0" />
+        <line start="WW274" end="WW177" text="277°" />
+        <line start="WW177" end="LUGIM" text="LUGIM 1A, 271°" arrows="end" />
+    </route>
+    <route name="MOTIX 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW273,WW176,MOTIX</navaids>
+        <include routeName="11 to WW101" />
+        <line start="WW101" end="WW273" text="289°" />
+        <line start="WW273" end="WW176" text="285°" />
+        <minAlt position="WW273" value="4.0" />
+        <line start="WW176" end="MOTIX" text="MOTIX 1A, 271°" arrows="end" />
+    </route>
+    <route name="OSPEN 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW172,WW173,OSPEN</navaids>
+        <include routeName="11 to WW172" />
+        <line start="WW172" end="WW173" />
+        <minAlt position="WW173" value="8.5" />
+        <line start="WW173" end="OSPEN" text="OSPEN 1A, 202°" arrows="end" />
+    </route>
+    <route name="SASAL 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW261,WW262,SASAL</navaids>
+        <include routeName="11 to WW262" />
+        <line start="WW262" end="SASAL" text="SASAL 1A, 183°" arrows="end" />
+    </route>
+    <route name="SITNI 3A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW275,WW178,SITNI</navaids>
+        <include routeName="11 to WW101" />
+        <line start="WW101" end="WW275" text="267°" />
+        <minAlt position="WW275" value="4.0" />
+        <line start="WW275" end="WW178" text="269°" />
+        <line start="WW178" end="SITNI" text="SITNI 3A, 268°" arrows="end" />
+    </route>
+    <route name="SNU 2A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW261,WW262,SNU</navaids>
+        <include routeName="11 to WW262" />
+        <line start="WW262" end="SNU" text="SNU 2A, 256°" arrows="end" />
+        <loop navpoint="SNU" inboundHeading="350" minHeight="5000" maxHeight="5000" arrows="both" />
+    </route>
+    <route name="STEIN 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW261,WW262,STEIN</navaids>
+        <include routeName="11 to WW262" />
+        <line start="WW262" end="STEIN" text="STEIN 1A, 179°" arrows="end" />
+    </route>
+    <route name="UMBIL 2A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW172,WW175,UMBIL</navaids>
+        <include routeName="11 to WW172" />
+        <line start="WW172" end="WW175" />
+        <minAlt position="WW175" value="8.5" />
+        <line start="WW175" end="UMBIL" text="UMBIL 2A, 202°" arrows="end" />
     </route>
     <!-- Ground markings and parking positions -->
     <route name="LOWW taxiways" zoomMax="12" displayMode="optional" color="160,160,80">
