@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<routes>
+	<!-- ************************************* -->
+	<!-- ******  LFLL Parking And Gate ******* -->
+	<!-- ************************************* -->
+	<route color="30,250,10" name="LFLL Paking" displayMode="always">
+		<!-- Parking A -->
+		<text position="N45°43'27.9'',E05°04'59.2''" font="Arial" text="A21" />
+		<text position="N45°43'27.8'',E05°04'57.3''" font="Arial" text="A22" />
+		<text position="N45°43'27.3'',E05°04'55.3''" font="Arial" text="A23" />
+		<text position="N45°43'27.0'',E05°04'53.4''" font="Arial" text="A24" />
+		<text position="N45°43'27.6'',E05°04'50.5''" font="Arial" text="A25" />
+		<text position="N45°43'27.9'',E05°04'49.1''" font="Arial" text="A26" />
+		<text position="N45°43'28.3'',E05°04'47.6''" font="Arial" text="A27" />
+		<text position="N45°43'28.6'',E05°04'46.2''" font="Arial" text="A28" />
+		<text position="N45°43'29.0'',E05°04'44.8''" font="Arial" text="A29" />
+		<text position="N45°43'29.4'',E05°04'43.2''" font="Arial" text="A30" />
+		<text position="N45°43'28.2'',E05°04'42.4''" font="Arial" text="A31" />
+		<text position="N45°43'26.8'',E05°04'43.4''" font="Arial" text="A32" />
+		<text position="N45°43'26.4'',E05°04'44.8''" font="Arial" text="A33" />
+		<text position="N45°43'26.1'',E05°04'46.2''" font="Arial" text="A34" />
+		<text position="N45°43'25.7'',E05°04'47.6''" font="Arial" text="A35" />
+		<text position="N45°43'25.3'',E05°04'49.0''" font="Arial" text="A36" />
+		<!-- Parking B -->
+		<text position="N45°43'25.4'',E05°04'59.4''" font="Arial" text="B10" />
+		<text position="N45°43'25.0'',E05°04'57.9''" font="Arial" text="B12" />
+		<text position="N45°43'24.8'',E05°04'56.4''" font="Arial" text="B14" />
+		<text position="N45°43'24.6'',E05°04'54.9''" font="Arial" text="B16" />
+		<text position="N45°43'24.2'',E05°04'53.4''" font="Arial" text="B18" />
+		<text position="N45°43'22.4'',E05°04'53.3''" font="Arial" text="B61" />
+		<text position="N45°43'21.3'',E05°04'54.8''" font="Arial" text="B63" />
+		<text position="N45°43'19.8'',E05°04'55.0''" font="Arial" text="B71" />
+		<text position="N45°43'18.6'',E05°04'56.0''" font="Arial" text="B73" />
+		<text position="N45°43'17.2'',E05°04'54.6''" font="Arial" text="B81" />
+		<text position="N45°43'16.1'',E05°04'54.2''" font="Arial" text="B83" />
+		<text position="N45°43'14.8'',E05°04'52.9''" font="Arial" text="B91" />
+		<text position="N45°43'13.9'',E05°04'51.9''" font="Arial" text="B93" />
+		<!-- Parking C -->
+		<text position="N45°43'11.0'',E05°04'49.6''" font="Arial" text="C21" />
+		<text position="N45°43'10.0'',E05°04'51.2''" font="Arial" text="C23" />
+		<text position="N45°43'08.5'',E05°04'50.5''" font="Arial" text="C41" />
+		<text position="N45°43'07.4'',E05°04'50.7''" font="Arial" text="C63" />
+		<text position="N45°43'06.0'',E05°04'49.6''" font="Arial" text="C61" />
+		<text position="N45°43'04.9'',E05°04'49.1''" font="Arial" text="C63" />
+		<!-- Parking E -->
+		<text position="N45°43'08.0'',E05°04'59.3''" font="Arial" text="E11" />
+		<text position="N45°43'06.3'',E05°04'58.8''" font="Arial" text="E13" />
+		<text position="N45°43'04.6'',E05°04'58.1''" font="Arial" text="E15" />
+		<text position="N45°43'03.0'',E05°04'57.0''" font="Arial" text="E17" />
+		<text position="N45°43'01.4'',E05°04'55.6''" font="Arial" text="E19" />
+		<text position="N45°43'00.3'',E05°04'54.3''" font="Arial" text="E21" />
+	</route>
+	
+	<!-- *********************************** -->
+	<!-- ******  LFLL GROUND LABLES  ******* -->
+	<!-- *********************************** -->
+	
+	<!-- *********************************** -->
+	<!-- ******  LFLL TAXIWAYS       ******* -->
+	<!-- *********************************** -->
+	<!-- Runways Taxiway -->
+	<route color="255,255,255" name="LFLL Taxiways" displayMode="always">
+		<!-- Tawiway A -->
+		<line start="45.746315,5.084347" end="45.746388,5.085528" text="A1" />
+		<line start="45.743532,5.085794" end="45.743484,5.083374" text="A2" />
+		<line start="45.737483,5.082479" end="45.736796,5.086654" text="A3" />
+		<line start="45.729505,5.087569" end="45.729228,5.083444" text="A4" />
+		<line start="45.723727,5.088235" end="45.724508,5.083990" text="A5" />
+		<line start="45.719602,5.088774" end="45.719400,5.084624" text="A6" />
+		<line start="45.710770,5.088580" end="45.711417,5.085605" text="A7" />
+		<!-- Taxiway B -->
+		<line start="45.736423,5.087743" end="45.734892,5.091369" text="B3" />
+		<line start="45.729571,5.088564" end="45.729757,5.092085" text="B4" />
+		<line start="45.719633,5.089785" end="45.719849,5.093313" text="B6" />
+		<line start="45.711035,5.094025" end="45.710837,5.090989" text="B7" />
+		<line start="45.710819,5.089809" end="45.710770,5.088580" />
+		<!-- Taxiway T -->
+		<line start="45.711417,5.085605" end="45.719400,5.084624" text="T" />
+		<line start="45.719400,5.084624" end="45.724508,5.083990" text="T" />
+		<line start="45.724508,5.083990" end="45.729228,5.083444" text="T" />
+		<line start="45.729228,5.083444" end="45.737365,5.082463" text="T" />
+		<line start="45.737365,5.082463" end="45.740100,5.082109" text="T" />
+		<line start="45.740100,5.082109" end="45.743502,5.083328" text="T" />
+		<line start="45.743502,5.083328" end="45.746315,5.084347" text="T" />
+		<!-- Taxiway W -->
+		<line start="45.729641,5.090294" end="45.727130,5.090619" text="W4" />
+		<line start="45.727130,5.090619" end="45.724838,5.092672" text="W4" />
+	</route>
+	
+	<!-- Parking Taxiways -->
+	<route color="30,250,10" name="LFLL Parking Taxi" displayMode="always">
+		<!-- Taxi Entrence -->
+		<curve start="45.725045,5.083460" end="45.724909,5.083949" controlPoint="45.725120,5.083913" />
+		<curve start="45.725045,5.083460" end="45.725323,5.083900" controlPoint="45.725120,5.083913" />
+		<line start="45.725045,5.083460" end="45.724820,5.081806" />
+		<curve start="45.719780,5.082578" end="45.719522,5.081713" controlPoint="45.719898,5.081921" />
+		<curve start="45.719780,5.082578" end="45.720307,5.082116" controlPoint="45.719898,5.081921" />
+		<!-- Taxi 1 -->
+		<line start="45.719473,5.084298" end="45.719898,5.081921" />
+		<curve start="45.724820,5.081806" end="45.724853,5.080994" controlPoint="45.724768,5.081390" />
+		<line start="45.724853,5.080994" end="45.725302,5.078939" />
+		<curve start="45.725302,5.078939" end="45.725325,5.078416" controlPoint="45.725378,5.078573" />
+		<line start="45.725325,5.078416" end="45.725148,5.077936" />
+		<curve start="45.725148,5.077936" end="45.724767,5.077630" controlPoint="45.725022,5.077577" />
+		<line start="45.724767,5.077630" end="45.724000,5.077787" />
+		<curve start="45.724000,5.077787" end="45.723755,5.078092" controlPoint="45.723835,5.077820" />
+		<line start="45.723755,5.078092" end="45.723140,5.080224" />
+		<!-- Taxi 2 -->
+		<line start="45.723255,5.083545" end="45.723087,5.082475" />
+		<curve start="45.723087,5.082475" end="45.722819,5.082384" controlPoint="45.723046,5.082136" />
+		<line start="45.722819,5.082384" end="45.722268,5.082931" />
+		<curve start="45.722268,5.082931" end="45.721831,5.082899" controlPoint="45.722064,5.083070" />
+		<!-- <line start="45.721831,5.082899" end="45.720069,5.081636" /> -->
+		<!-- <curve start="45.720069,5.081636" end="45.719718,5.081584" controlPoint="45.719899,5.081513" /> -->
+		<!-- <line start="45.719718,5.081584" end="45.719304,5.081744" /> -->
+		<!-- <curve start="45.719304,5.081744" end="45.718938,5.081705" controlPoint="45.719092,5.081822" /> -->
+		<line start="45.721831,5.082899" end="45.717367,5.080605" />
+	</route>
+	
+	<!-- *********************************** -->
+	<!-- ******  LFLL HOLDING PATTERN ****** -->
+	<!-- *********************************** -->
+	<route  name="LFLL Holding Patterns" displayMode="always">
+		<navaids color="10,240,25">TALAR,RUNOM,ARBON,GOMET,ROLIR,OSMAS,OKTOL,DIRBA</navaids>
+		<loop navpoint="TALAR" color="250,5,255" right="false" inboundHeading="121" width="4" arrows="end" minHeight="7000" maxHeight="MAX 14000"/>>
+		<loop navpoint="RUNOM" color="250,5,255" inboundHeading="210" width="4" arrows="end" minHeight="7000" maxHeight="MAX 14000"/>
+		<loop navpoint="ARBON" color="250,5,255" right="false" inboundHeading="016" width="4" arrows="end" minHeight="7000" maxHeight="MAX 14000"/>
+		<loop navpoint="GOMET" color="250,5,255" right="false" inboundHeading="345" width="4" arrows="end" minHeight="10000" maxHeight="MAX 14000"/>>
+	</route>
+	
+	<!-- *********************************** -->
+	<!-- ******   Major NAVaids  ****** -->
+	<!-- *********************************** -->
+	<route name="Major Nav Aids" color="130,140,240" displayMode="always" zoomMin="10">
+		<navaids>(VOR)LSE,(VOR)LTP,(VOR)MOU,(VOR)CFA,(VOR)TIS,(VOR)ROA,(VOR)MTL,(VOR)VNE,(VOR)SPR</navaids>
+	</route>
+	
+	<!-- ************************* -->
+	<!-- ******  LFLL STARs ****** -->
+	<!-- ************************* -->
+	<route name="rw 18R,18L,36R,36L STAR DELTA" color="122,150,80" display="star" zoomMin="10">
+		<activeLandingRunways>18R,18L,36R,36L</activeLandingRunways>
+		<navaids color="130,140,240">ARSOM,LABAL,MILPA,BALAG,MEZIN,AGREV,AMIKO,ROLIR,AMONI,LL102,LL101,AMVAR,PINED</navaids>
+		<!-- COMMON -->
+		<line start="(VOR)ROA" end="DIRBA" arrows="end,10" />
+		<!-- MOU 3S -->
+		<line start="(VOR)MOU" end="(VOR)ROA" arrows="end,10" />
+		<!-- ARSOM 3S -->
+		<line start="ARSOM" end="(VOR)ROA" arrows="end,10" />
+		<!-- LABAL 3S -->
+		<line start="LABAL" end="(VOR)ROA" arrows="end,10" />
+		<!-- CFA 3S -->
+		<line start="CFA" end="(VOR)ROA" arrows="end,10" />
+		<!-- TIS 3S -->
+		<line start="TIS" end="(VOR)ROA" arrows="end,10" />
+		<!-- MILPA 3S -->
+		<line start="MILPA" end="BALAG" />
+		<line start="BALAG" end="OKTOL" arrows="end,10" />
+		<!-- AMVAR 3S -->
+		<line start="AMVAR" end="LL101" />
+		<line start="LL101" end="LL102" />
+		<line start="LL102" end="OSMAS" arrows="end,10" />
+		<!-- PINED 3S-->
+		<line start="PINED" end="LL103" />
+		<line start="LL103" end="OSMAS" arrows="end,10" />
+		<!-- MTL 3S -->
+		<line start="(VOR)MTL" end="AMONI" />
+		<line start="AMONI" end="ROLIR" arrows="end,10" />
+		<!-- MEZIN 3D -->
+		<line start="MEZIN" end="NELEN" stroke="dash" />
+		<line start="NELEN" end="ROLIR" stroke="dash" />
+		<!-- MEZIN 3S -->
+		<line start="MEZIN" end="AGREV" />
+		<line start="AGREV" end="AMIKO" />
+		<line start="AMIKO" end="ARBON" />
+	</route>
+	
+	<!-- ************************ -->
+	<!-- ******  LFLL SIDs ****** -->
+	<!-- ************************ -->
+	<!-- SID RW 36R,36L -->
+	<route name="rw 36R,36L SID DELTA" color="122,150,80" display="sid" zoomMin="10">
+		<activeStartRunways>36R,36L</activeStartRunways>
+		<navaids color="130,140,240">DANBO,BUSIL,BOBSI,ALURA,MOKIP,MABES,RONIS,MURRO,VIRIE,ABADO,BELUS,PENAR,RISOR,ROMAM,WS291</navaids>
+		<!-- COMMON -->
+		<line start="DANBO" end="BOBSI" />
+		<curve start="4.2NM353.2@(VOR)LSE" end="23NM328.5@(VOR)LTP" controlPoint="3.6NM148@DANBO" />
+		<line start="23NM328.5@(VOR)LTP" end="ABADO" />
+		<line start="1NM355@(VOR)LSE" end="DANBO" />
+		<!-- BUSIL 6N -->
+		<line start="DANBO" end="BUSIL" arrows="end,10" />
+		<!-- ALURA 6N -->
+		<line start="BOBSI" end="ALURA" arrows="end,10" />
+		<!-- MOKIP 6N -->
+		<line start="BOBSI" end="MOKIP" arrows="end,10" />
+		<!-- MABES 6N -->
+		<curve start="-2NM352.7@BOBSI" end="2NM095@BOBSI" controlPoint="0.5NM135@BOBSI" />
+		<line start="2NM095@BOBSI" end="MABES" arrows="end,10" />
+		<!-- MURRO 6N -->
+		<curve start="7.2NM352.9@(VOR)LSE" end="2NM239@DANBO" controlPoint="DANBO" />
+		<line start="2NM239@DANBO" end="RONIS" />
+		<line start="RONIS" end="13NM244@RONIS" />
+		<curve start="13NM244@RONIS" end="-17NM179@MURRO" controlPoint="16NM244@RONIS" />
+		<line start="-17NM179@MURRO" end="MURRO" arrows="end,10" />
+		<!-- VIRIE 6N -->
+		<line start="19.6NM328.5@(VOR)LTP" end="VIRIE" arrows="end,10" />
+		<!-- BELUS 6N -->
+		<curve start="ABADO" end="-9NM076@BELUS" controlPoint="2.5NM122@ABADO" />
+		<line start="-9NM076@BELUS" end="BELUS" arrows="end,10" />
+		<!-- RISOR 6N -->
+		<line start="ABADO" end="PENAR" />
+		<line start="PENAR" end="RISOR" arrows="end,10" />
+		<!-- ROMAM 6N -->
+		<line start="23NM328.5@(VOR)LTP" end="WS291" />
+		<line start="WS291" end="ROMAM" arrows="end,10" />
+	</route>
+	
+	<!-- SID RW 18R,18L -->
+	<route name="rw 18R,18L SID DELTA" color="122,150,80" display="sid" zoomMin="10">
+		<activeStartRunways>18R,18L</activeStartRunways>
+		<navaids color="130,140,240">WS291,ROMAM,VNE,MADOT,BELEP,REPSI,MURRO,VIRIE,BELUS,LAPAT,PENAR,RISOR,DANBO,BUSIL,BOBSI,ALURA,MOKIP,MABES</navaids>
+		<!-- COMMON -->
+		<line start="3NM175@(VOR)LSE" end="WS291" />
+		<curve start="4.7NM174.4@(VOR)LSE" end="-6NM250@VNE" controlPoint="7.9NM175@(VOR)LSE" />
+		<line start="-6NM250@VNE" end="(VOR)VNE" />
+		<line start="9NM174@(VOR)LSE" end="(VOR)LTP" />
+		<line start="DANBO" end="BOBSI" />
+		<curve start="4.2NM174.4@(VOR)LSE" end="4.2NM155@(VOR)LSE" controlPoint="4.7NM165@(VOR)LSE" />
+		<line start="DANBO" end="20NM328@(VOR)LTP" />
+		<line start="4.2NM155@(VOR)LSE" end="17.7NM320@(VOR)LTP" />
+		<curve start="17.7NM320@(VOR)LTP" end="20NM328@(VOR)LTP" controlPoint="18.5NM328@(VOR)LTP" />
+		<!-- ROMAM 6S -->
+		<line start="WS291" end="ROMAM" arrows="end,10" />
+		<!-- BELEP 6S -->
+		<line start="(VOR)VNE" end="MADOT" />
+		<line start="MADOT" end="BELEP" arrows="end,10" />
+		<!-- REPSI 6S -->
+		<line start="(VOR)VNE" end="REPSI" arrows="end,10" />
+		<!-- MURRO 6S -->
+		<line start="(VOR)VNE" end="MURRO" arrows="end,10" />
+		<!-- VIRIE 6S -->
+		<curve start="-4.7NM115.3@(VOR)LTP" end="4NM013@(VOR)LTP" controlPoint="(VOR)LTP" />
+		<line start="4NM013@(VOR)LTP" end="18NM013@(VOR)LTP" />
+		<curve start="18NM013@(VOR)LTP" end="VIRIE"  controlPoint="20.5NM074@(VOR)LSE" arrows="end,10" />
+		<!-- BELUS 6S -->
+		<curve start="-3.5NM115.3@(VOR)LTP" end="4NM030@(VOR)LTP" controlPoint="(VOR)LTP" />
+		<line start="4NM030@(VOR)LTP" end="BELUS" arrows="end,10" />
+		<!-- RISOR 6S -->
+		<line start="(VOR)LTP" end="LAPAT" />
+		<line start="LAPAT" end="PENAR" />
+		<line start="PENAR" end="RISOR" arrows="end,10" />
+		<!-- BUSIL 6S -->
+		<line start="DANBO" end="BUSIL" arrows="end,10" />
+		<!-- ALURA 6S -->
+		<line start="BOBSI" end="ALURA" arrows="end,10" />
+		<!-- MOKIP 6S -->
+		<line start="BOBSI" end="MOKIP" arrows="end,10" />
+		<!-- MABES 6S-->
+		<curve start="-2NM352.7@BOBSI" end="2NM095@BOBSI" controlPoint="0.5NM135@BOBSI" />
+		<line start="2NM095@BOBSI" end="MABES" arrows="end,10" />
+	</route>
+	
+	<!-- ************************** -->
+	<!-- ******  18 Final's  ****** -->
+	<!-- ************************** -->
+	
+	<!-- ********************************** -->
+	<!-- ******  18 missed Approach  ****** -->
+	<!-- ********************************** -->
+	
+	<!-- ************************** -->
+	<!-- ******  36 Final's  ****** -->
+	<!-- ************************** -->
+	
+	<!-- ********************************** -->
+	<!-- ******  36 missed Approach  ****** -->
+	<!-- ********************************** -->
+</routes>
