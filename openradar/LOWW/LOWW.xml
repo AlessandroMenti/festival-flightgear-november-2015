@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright © 2015 Alessandro Menti
+
+     This data is free software; you can redistribute it and/or modify it under
+     the terms of the GNU General Public License as published by the Free
+     Software Foundation; either version 2 of the License, or (at your option)
+     any later version.
+
+     This data is distributed in the hope that it will be useful, but WITHOUT
+     ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+     FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+     more details.
+
+     You should have received a copy of the GNU General Public License along
+     with this data; if not, see <http://www.gnu.org/licenses> or write to
+     the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+     Boston, MA 02110-1301 USA. -->
 <routes>
     <!-- Points -->
     <addPoint code="ABTAN" point="N47°06'49.00'',E14°29'44.00''" />
+    <addPoint code="ADAMA" point="N47°59'16.00'',E17°20'29.00''" />
+    <addPoint code="KOXER" point="N48°07'39.00'',E17°02'54.00''" />
     <addPoint code="NATEX" point="N47°44'49.00'',E17°30'00.00''" />
+    <addPoint code="OEW" point="48.10451700,016.58952200" />
+    <addPoint code="OEZ" point="48.08541700,016.59270000" />
+    <addPoint code="WW171" point="N48°34'10.55'',E15°53'21.14''" />
+    <addPoint code="WW172" point="N47°52'19.93'',E15°57'44.67''" />
+    <addPoint code="WW173" point="N47°49'28.00'',E15°45'45.45''" />
+    <addPoint code="WW175" point="N47°44'11.33'',E15°52'01.73''" />
+    <addPoint code="WW181F" point="N48°34'10.55'',E15°53'21.14''" /> <!-- Fixed position for WW181 -->
+    <addPoint code="WW386" point="N48°04'59.52'',E16°46'21.16''" />
+    <addPoint code="WW390" point="N48°00'40.43'',E17°02'11.52''" />
     <addPoint code="WW410" point="N47°09'45.01'',E14°46'46.98''" />
     <addPoint code="WW411F" point="N46°57'13.86'',E16°08'12.97''" /> <!-- Fixed position for WW411 -->
     <addPoint code="WW450" point="N47°53'40.00'',E15°28'51.00''" />
@@ -12,10 +39,12 @@
     <addPoint code="WW679" point="N48°19'17.45'',E16°21'47.40''" />
     <addPoint code="WW681" point="N48°17'41.38'',E16°13'19.97''" />
     <addPoint code="WW682" point="N48°06'41.40'',E16°45'00.42''" />
+    <addPoint code="WW948" point="N48°10'54.23'',E16°21'05.86''" />
     <addPoint code="WW964" point="N47°51'41.05'',E16°38'18.48''" />
     <addPoint code="WW965" point="N48°18'58.99'',E16°39'02.43''" />
     <addPoint code="WW966" point="N47°48'51.10'',E16°46'24.08''" />
     <addPoint code="WW967" point="N48°26'56.31'',E16°40'15.14''" />
+    <addPoint code="WW968" point="N48°14'56.08'',E16°31'24.21''" />
     <addPoint code="WW983" point="N48°06'38.15'',E16°42'40.10''" />
     <addPoint code="WW985" point="N48°16'15.72'',E16°38'38.30''" />
     <addPoint code="WW987" point="N48°27'47.10'',E16°33'46.60''" />
@@ -23,16 +52,47 @@
     <addPoint code="WW989" point="N47°58'41.50'',E16°55'35.34''" />
     <addPoint code="WW991" point="N47°52'13.30'',E16°58'42.74''" />
     <!-- Approaches -->
-    <!--<route name="ILS xx" displayMode="optional" color="255,242,0">
-    </route>-->
-    <!-- Transition to final approaches -->
-    <route name="BALAD 3K" displayMode="star">
+    <route name="Approach 11" displayMode="optional" color="255,242,0">
         <activeLandingRunways>11</activeLandingRunways>
-        <navaids>BALAD,WW669,WW665,WW663,WW661,WW659,WW657,WW655,WW653,WW652,WW651,WW650</navaids>
-        <loop navpoint="BALAD" inboundHeading="035" minHeight="8000" arrows="both" />
-        <line start="BALAD" end="WW669" text="BALAD 3K, 037°" arrows="end" />
-        <minAlt position="WW669" value="6.0" />
-        <intercept start="WW669" startHeading="023" radius="2" direction="left" endHeading="301" end="WW663" />
+        <navaids>FMD</navaids>
+        <line start="WW650" end="LOWW-RW29" arrows="end" />
+        <minAlt position="13NM296@OEW" value="5.0" color="255,242,0" />
+        <line start="LOWW-RW11" end="10NM116@OEW" stroke="dashed" color="255,128,128" arrows="end" />
+        <intercept start="10NM116@OEW" startHeading="116" radius="2.75" direction="left" endHeading="266" end="FMD" stroke="dashed" color="255,128,128" arrows="end" />
+        <loop navpoint="FMD" inboundHeading="160" minHeight="5000" maxHeight="5000" right="false" length="4" stroke="dashed" color="255,128,128" arrows="both" />
+    </route>
+    <route name="Approach 16" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>FMD</navaids>
+        <line start="WW670" end="LOWW-RW34" arrows="end" />
+        <minAlt position="13.8NM344@OEZ" value="5.0" color="255,242,0" />
+        <line start="LOWW-RW16" end="10NM164@OEZ" stroke="dashed" color="255,128,128" arrows="end" />
+        <intercept start="10NM164@OEZ" startHeading="164" radius="1.8" direction="left" endHeading="334" end="FMD" stroke="dashed" color="255,128,128" arrows="end" />
+        <loop navpoint="FMD" inboundHeading="160" minHeight="5000" maxHeight="5000" right="false" length="4" stroke="dashed" color="255,128,128" arrows="both" />
+    </route>
+    <route name="Approach 29" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>29</activeLandingRunways>
+        <navaids>FMD</navaids>
+        <line start="WW950" end="LOWW-RW11" arrows="end" />
+        <minAlt position="WW951" value="2.7" color="255,242,0" />
+        <minAlt position="WW950" value="2.0" color="255,242,0" />
+        <line start="LOWW-RW29" end="WW948" stroke="dashed" color="255,128,128" arrows="end" />
+        <intercept start="WW948" startHeading="296" radius="2.25" direction="right" endHeading="134" end="FMD" stroke="dashed" color="255,128,128" arrows="end" />
+        <loop navpoint="FMD" inboundHeading="160" minHeight="5000" maxHeight="5000" right="false" length="4" stroke="dashed" color="255,128,128" arrows="both" />
+    </route>
+    <route name="Approach 34" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>FMD</navaids>
+        <line start="WW970" end="LOWW-RW16" arrows="end" />
+        <minAlt position="WW971" value="3.0" color="255,242,0" />
+        <minAlt position="WW970" value="3.0" color="255,242,0" />
+        <line start="LOWW-RW34" end="WW968" stroke="dashed" color="255,128,128" arrows="end" />
+        <intercept start="WW968" startHeading="344" radius="1.75" direction="right" endHeading="174" end="FMD" stroke="dashed" color="255,128,128" arrows="end" />
+        <loop navpoint="FMD" inboundHeading="160" minHeight="5000" maxHeight="5000" right="false" length="4" stroke="dashed" color="255,128,128" arrows="both" />
+    </route>
+    <!-- Transition to common approaches -->
+    <route name="11 common west">
+        <activeLandingRunways>11</activeLandingRunways>
         <minAlt position="WW663" value="5.0" />
         <line start="WW663" end="WW661" text="297°" />
         <line start="WW661" end="WW659" text="292°" />
@@ -41,6 +101,23 @@
         <intercept start="2.5NM026@WW655" startHeading="026" radius="2" direction="right" endHeading="116" end="WW652" />
         <line start="WW652" end="WW651" />
         <line start="WW651" end="WW650" />
+    </route>
+    <route name="11 common east">
+        <activeLandingRunways>11</activeLandingRunways>
+        <line start="WW658" end="WW656" text="292°" />
+        <intercept start="WW656" startHeading="296" radius="2" direction="left" endHeading="206" end="2.5NM206@WW654" />
+        <intercept start="2.5NM206@WW654" startHeading="206" radius="2" direction="left" endHeading="116" end="WW652" />
+        <line start="WW652" end="WW651" />
+        <line start="WW651" end="WW650" />
+    </route>
+    <route name="BALAD 3K" displayMode="star">
+        <activeLandingRunways>11</activeLandingRunways>
+        <navaids>BALAD,WW669,WW665,WW663,WW661,WW659,WW657,WW655,WW653,WW652,WW651,WW650</navaids>
+        <loop navpoint="BALAD" inboundHeading="035" minHeight="8000" arrows="both" />
+        <line start="BALAD" end="WW669" text="BALAD 3K, 037°" arrows="end" />
+        <minAlt position="WW669" value="6.0" />
+        <intercept start="WW669" startHeading="023" radius="2" direction="left" endHeading="300.75" end="WW663" />
+        <include routeName="11 common west" />
     </route>
     <route name="MABOD 4K" displayMode="star">
         <activeLandingRunways>11</activeLandingRunways>
@@ -49,11 +126,7 @@
         <line start="MABOD" end="WW664" text="MABOD 4K, 209°" arrows="end" />
         <minAlt position="WW664" value="5.0" />
         <line start="WW664" end="WW658" text="261°" />
-        <line start="WW658" end="WW656" text="292°" />
-        <intercept start="WW656" startHeading="296" radius="2" direction="left" endHeading="206" end="2.5NM206@WW654" />
-        <intercept start="2.5NM206@WW654" startHeading="206" radius="2" direction="left" endHeading="116" end="WW652" />
-        <line start="WW652" end="WW651" />
-        <line start="WW651" end="WW650" />
+        <include routeName="11 common east" />
     </route>
     <route name="NERDU 4K" displayMode="star">
         <activeLandingRunways>11</activeLandingRunways>
@@ -61,12 +134,8 @@
         <loop navpoint="NERDU" inboundHeading="104" minHeight="6000" arrows="both" />
         <line start="NERDU" end="WW666" text="NERDU 4K, 107°" arrows="end" />
         <minAlt position="WW666" value="5.0" />
-        <intercept start="WW666" startHeading="111" radius="2.75" direction="right" endHeading="265" end="WW658" />
-        <line start="WW658" end="WW656" text="292°" />
-        <intercept start="WW656" startHeading="296" radius="2" direction="left" endHeading="206" end="2.5NM206@WW654" />
-        <intercept start="2.5NM206@WW654" startHeading="206" radius="2" direction="left" endHeading="116" end="WW652" />
-        <line start="WW652" end="WW651" />
-        <line start="WW651" end="WW650" />
+        <intercept start="WW666" startHeading="111" radius="2.75" direction="right" endHeading="264.75" end="WW658" />
+        <include routeName="11 common east" />
     </route>
     <route name="PESAT 3K" displayMode="star">
         <activeLandingRunways>11</activeLandingRunways>
@@ -75,14 +144,23 @@
         <line start="PESAT" end="WW667" text="PESAT 3K, 320°" arrows="end" />
         <line start="WW667" end="WW665" text="292°" />
         <line start="WW665" end="WW663" text="297°" />
-        <minAlt position="WW663" value="5.0" />
-        <line start="WW663" end="WW661" text="297°" />
-        <line start="WW661" end="WW659" text="292°" />
-        <line start="WW659" end="WW657" />
-        <intercept start="WW657" startHeading="296" radius="2" direction="right" endHeading="026" end="2.5NM026@WW655" />
-        <intercept start="2.5NM026@WW655" startHeading="026" radius="2" direction="right" endHeading="116" end="WW652" />
-        <line start="WW652" end="WW651" />
-        <line start="WW651" end="WW650" />
+        <include routeName="11 common west" />
+    </route>
+    <route name="29 common south">
+        <activeLandingRunways>29</activeLandingRunways>
+        <intercept start="2.75NM296@WW954" startHeading="116" radius="1" direction="left" endHeading="296" end="WW952" text="292°" />
+        <minAlt position="WW952" value="3.0" />
+        <line start="WW952" end="WW951" />
+        <line start="WW951" end="WW950" />
+    </route>
+    <route name="29 common north">
+        <activeLandingRunways>29</activeLandingRunways>
+        <line start="WW959" end="WW957" />
+        <line start="WW957" end="2.75NM296@WW955" />
+        <intercept start="2.75NM296@WW955" startHeading="116" radius="1" direction="right" endHeading="296" end="WW952" text="292°" />
+        <minAlt position="WW952" value="3.0" />
+        <line start="WW952" end="WW951" />
+        <line start="WW951" end="WW950" />
     </route>
     <route name="BALAD 4M" displayMode="star">
         <activeLandingRunways>29</activeLandingRunways>
@@ -91,10 +169,7 @@
         <line start="BALAD" end="WW964" text="BALAD 4M, 067°" arrows="end" />
         <minAlt position="WW964" value="6.0" />
         <intercept start="WW964" startHeading="071" radius="2" direction="right" endHeading="116" end="2.75NM296@WW954" text="112°" />
-        <intercept start="2.75NM296@WW954" startHeading="116" radius="1" direction="left" endHeading="296" end="WW952" text="292°" />
-        <minAlt position="WW952" value="3.0" />
-        <line start="WW952" end="WW951" />
-        <line start="WW951" end="WW950" />
+        <include routeName="29 common south" />
     </route>
     <route name="MABOD 5M" displayMode="star">
         <activeLandingRunways>29</activeLandingRunways>
@@ -102,13 +177,8 @@
         <loop navpoint="MABOD" inboundHeading="164" minHeight="6000" arrows="both" />
         <line start="MABOD" end="WW967" text="MABOD 5M, 182°" arrows="end" />
         <line start="WW967" end="WW965" />
-        <intercept start="WW965" startHeading="186" radius="2" direction="left" endHeading="116" end="WW959" text="112°" />
-        <line start="WW959" end="WW957" />
-        <line start="WW957" end="2.75NM296@WW955" />
-        <intercept start="2.75NM296@WW955" startHeading="116" radius="1" direction="right" endHeading="296" end="WW952" text="292°" />
-        <minAlt position="WW952" value="3.0" />
-        <line start="WW952" end="WW951" />
-        <line start="WW951" end="WW950" />
+        <intercept start="WW965" startHeading="186" radius="2" direction="left" endHeading="116.3" end="WW959" text="112°" />
+        <include routeName="29 common north" />
     </route>
     <route name="NERDU 4M" displayMode="star">
         <activeLandingRunways>29</activeLandingRunways>
@@ -117,12 +187,7 @@
         <line start="NERDU" end="WW963" text="NERDU 4M, 121°" arrows="end" />
         <line start="WW963" end="WW961" text="139°" />
         <line start="WW961" end="WW959" />
-        <line start="WW959" end="WW957" />
-        <line start="WW957" end="2.75NM296@WW955" />
-        <intercept start="2.75NM296@WW955" startHeading="116" radius="1" direction="right" endHeading="296" end="WW952" text="292°" />
-        <minAlt position="WW952" value="3.0" />
-        <line start="WW952" end="WW951" />
-        <line start="WW951" end="WW950" />
+        <include routeName="29 common north" />
     </route>
     <route name="PESAT 4M" displayMode="star">
         <activeLandingRunways>29</activeLandingRunways>
@@ -131,18 +196,10 @@
         <intercept start="PESAT" startHeading="298" radius="2" direction="right" endHeading="027" end="3.15NM027@WW966" text="023°" />
         <text position="6.4NM298@PESAT" text="PESAT 4M, 294°" />
         <intercept start="3.15NM027@WW966" startHeading="027" radius="2" direction="right" endHeading="116" end="2.75NM296@WW954" />
-        <intercept start="2.75NM296@WW954" startHeading="116" radius="1" direction="left" endHeading="296" end="WW952" text="292°" />
-        <minAlt position="WW952" value="3.0" />
-        <line start="WW952" end="WW951" />
-        <line start="WW951" end="WW950" />
+        <include routeName="29 common south" />
     </route>
-    <route name="BALAD 5L" displayMode="star">
+    <route name="16 common south">
         <activeLandingRunways>16</activeLandingRunways>
-        <navaids>BALAD,WW686,WW684,WW682,WW680,WW678,WW676,WW674,WW673,WW672,WW671,WW670</navaids>
-        <loop navpoint="BALAD" inboundHeading="035" minHeight="8000" arrows="both" />
-        <line start="BALAD" end="WW686" text="BALAD 5L, 056°" arrows="end" />
-        <minAlt position="WW686" value="6.0" />
-        <intercept start="WW686" startHeading="060" radius="1" direction="left" endHeading="333" end="WW682" />
         <line start="WW682" end="WW680" />
         <line start="WW680" end="WW678" />
         <minAlt position="WW678" value="5.0" />
@@ -151,6 +208,15 @@
         <intercept start="2.5NM255@WW674" startHeading="255" radius="2" direction="left" endHeading="164" end="WW672" />
         <line start="WW672" end="WW671" text="160°" />
         <line start="WW671" end="WW670" />
+    </route>
+    <route name="BALAD 5L" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>BALAD,WW686,WW684,WW682,WW680,WW678,WW676,WW674,WW673,WW672,WW671,WW670</navaids>
+        <loop navpoint="BALAD" inboundHeading="035" minHeight="8000" arrows="both" />
+        <line start="BALAD" end="WW686" text="BALAD 5L, 056°" arrows="end" />
+        <minAlt position="WW686" value="6.0" />
+        <intercept start="WW686" startHeading="060" radius="1" direction="left" endHeading="333" end="WW682" />
+        <include routeName="16 common south" />
     </route>
     <route name="MABOD 5L" displayMode="star">
         <activeLandingRunways>16</activeLandingRunways>
@@ -186,14 +252,30 @@
         <loop navpoint="PESAT" inboundHeading="270" right="false" minHeight="6000" arrows="both" />
         <line start="PESAT" end="WW684" text="PESAT 5L, 329°" arrows="end" />
         <line start="WW684" end="WW682" />
-        <line start="WW682" end="WW680" />
-        <line start="WW680" end="WW678" />
-        <minAlt position="WW678" value="5.0" />
-        <line start="WW678" end="WW676" text="340°" />
-        <intercept start="WW676" startHeading="344" radius="2" direction="left" endHeading="255" end="2.5NM255@WW674" />
-        <intercept start="2.5NM255@WW674" startHeading="255" radius="2" direction="left" endHeading="164" end="WW672" />
-        <line start="WW672" end="WW671" text="160°" />
-        <line start="WW671" end="WW670" />
+        <include routeName="16 common south" />
+    </route>
+    <route name="34 common final">
+        <activeLandingRunways>34</activeLandingRunways>
+        <line start="WW972" end="WW971" />
+        <minAlt position="WW971" value="3.0" />
+        <line start="WW971" end="WW970" />
+    </route>
+    <route name="34 common south">
+        <activeLandingRunways>34</activeLandingRunways>
+        <line start="WW979" end="WW977" />
+        <intercept start="WW977" startHeading="164" radius="2" direction="right" endHeading="255" end="2.5NM255@WW975" />
+        <intercept start="2.5NM255@WW975" startHeading="255" radius="2" direction="right" endHeading="344" end="WW973" />
+        <minAlt position="WW973" value="4.0" />
+        <line start="WW973" end="WW972" text="160°" />
+        <include routeName="34 common final" />
+    </route>
+    <route name="34 common north">
+        <activeLandingRunways>34</activeLandingRunways>
+        <line start="WW987" end="WW985" />
+        <line start="WW985" end="WW983" />
+        <line start="WW983" end="WW981" />
+        <line start="WW981" end="WW979" />
+        <include routeName="34 common final" />
     </route>
     <route name="BALAD 3N" displayMode="star">
         <activeLandingRunways>34</activeLandingRunways>
@@ -207,45 +289,21 @@
         <intercept start="2.5NM075@WW976" startHeading="075" radius="2" direction="left" endHeading="344" end="WW973" />
         <minAlt position="WW973" value="4.0" />
         <line start="WW973" end="WW972" text="160°" />
-        <line start="WW972" end="WW971" />
-        <minAlt position="WW971" value="3.0" />
-        <line start="WW971" end="WW970" />
+        <include routeName="34 common final" />
     </route>
     <route name="MABOD 4N" displayMode="star">
         <activeLandingRunways>34</activeLandingRunways>
         <navaids>MABOD,WW987,WW985,WW983,WW981,WW979,WW977,WW975,WW974,WW973,WW972,WW971,WW970</navaids>
         <loop navpoint="MABOD" inboundHeading="164" minHeight="6000" arrows="both" />
         <line start="MABOD" end="WW987" text="MABOD 4N, 213°" arrows="end" />
-        <line start="WW987" end="WW985" />
-        <line start="WW985" end="WW983" />
-        <line start="WW983" end="WW981" />
-        <line start="WW981" end="WW979" />
-        <line start="WW979" end="WW977" />
-        <intercept start="WW977" startHeading="164" radius="2" direction="right" endHeading="255" end="2.5NM255@WW975" />
-        <intercept start="2.5NM255@WW975" startHeading="255" radius="2" direction="right" endHeading="344" end="WW973" />
-        <minAlt position="WW973" value="4.0" />
-        <line start="WW973" end="WW972" text="160°" />
-        <line start="WW972" end="WW971" />
-        <minAlt position="WW971" value="3.0" />
-        <line start="WW971" end="WW970" />
+        <include routeName="34 common north" />
     </route>
     <route name="NERDU 4N" displayMode="star">
         <activeLandingRunways>34</activeLandingRunways>
         <navaids>NERDU,WW987,WW985,WW983,WW981,WW979,WW977,WW975,WW974,WW973,WW972,WW971,WW970</navaids>
         <loop navpoint="NERDU" inboundHeading="104" minHeight="6000" arrows="both" />
         <line start="NERDU" end="WW987" text="NERDU 4N, 089°" arrows="end" />
-        <line start="WW987" end="WW985" />
-        <line start="WW985" end="WW983" />
-        <line start="WW983" end="WW981" />
-        <line start="WW981" end="WW979" />
-        <line start="WW979" end="WW977" />
-        <intercept start="WW977" startHeading="164" radius="2" direction="right" endHeading="255" end="2.5NM255@WW975" />
-        <intercept start="2.5NM255@WW975" startHeading="255" radius="2" direction="right" endHeading="344" end="WW973" />
-        <minAlt position="WW973" value="4.0" />
-        <line start="WW973" end="WW972" text="160°" />
-        <line start="WW972" end="WW971" />
-        <minAlt position="WW971" value="3.0" />
-        <line start="WW971" end="WW970" />
+        <include routeName="34 common north" />
     </route>
     <route name="PESAT 4N" displayMode="star">
         <activeLandingRunways>34</activeLandingRunways>
@@ -254,14 +312,7 @@
         <line start="PESAT" end="WW991" text="PESAT 4N, 338°" arrows="end" />
         <intercept start="WW991" startHeading="342" radius="2" direction="left" endHeading="255" end="3NM255@WW989" />
         <intercept start="3NM255@WW989" startHeading="255" radius="2" direction="left" endHeading="164" end="WW979" />
-        <line start="WW979" end="WW977" />
-        <intercept start="WW977" startHeading="164" radius="2" direction="right" endHeading="255" end="2.5NM255@WW975" />
-        <intercept start="2.5NM255@WW975" startHeading="255" radius="2" direction="right" endHeading="344" end="WW973" />
-        <minAlt position="WW973" value="4.0" />
-        <line start="WW973" end="WW972" text="160°" />
-        <line start="WW972" end="WW971" />
-        <minAlt position="WW971" value="3.0" />
-        <line start="WW971" end="WW970" />
+        <include routeName="34 common south" />
     </route>
     <!-- STARs -->
     <route name="ABTAN 1W" displayMode="star">
@@ -381,6 +432,128 @@
         <minAlt position="NIGSI" value="8.0" />
         <line start="NIGSI" end="BALAD" text="XANUT 1W, 015°" arrows="end" />
     </route>
+    <!-- SIDs, runway 11 -->
+    <route name="11 to WW152">
+        <activeStartRunways>11</activeStartRunways>
+        <line start="LOWW-RW11" end="WW151" />
+        <intercept start="WW151" startHeading="117" radius="2" direction="left" endHeading="357" end="WW152" text="353°" />
+    </route>
+    <route name="11 to WW171">
+        <activeStartRunways>11</activeStartRunways>
+        <include routeName="11 to WW152" />
+        <intercept start="WW152" startHeading="357" radius="2" direction="left" endHeading="285" end="WW171" text="281°" />
+    </route>
+    <route name="11 to WW262">
+        <activeStartRunways>11</activeStartRunways>
+        <line start="LOWW-RW11" end="WW100" />
+        <intercept start="WW100" startHeading="116" radius="2" direction="right" endHeading="221" end="WW262" text="217°" />
+    </route>
+    <route name="11 to WW101">
+        <activeStartRunways>11</activeStartRunways>
+        <line start="LOWW-RW11" end="WW100" />
+        <intercept start="WW100" startHeading="116" radius="2" direction="right" endHeading="251" end="WW101" />
+    </route>
+    <route name="11 to WW172">
+        <activeStartRunways>11</activeStartRunways>
+        <include routeName="11 to WW101" />
+        <line start="WW101" end="WW172" text="251°" />
+    </route>
+    <route name="ADAMA 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW390,ADAMA</navaids>
+        <line start="LOWW-RW11" end="WW100" />
+        <line start="WW100" end="WW390" text="102°" />
+        <line start="WW390" end="ADAMA" text="ADAMA 1A, 092°" arrows="end" />
+    </route>
+    <route name="DITIS 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW151,WW152,WW170,WW171,WW181F,DITIS</navaids>
+        <include routeName="11 to WW171" />
+        <line start="WW171" end="WW181F" text="301°" />
+        <line start="WW181F" end="DITIS" text="DITIS 1A, 298°" arrows="end" />
+    </route>
+    <route name="KOXER 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW386,KOXER</navaids>
+        <line start="LOWW-RW11" end="WW100" />
+        <line start="WW100" end="WW386" text="090°" />
+        <line start="WW386" end="KOXER" text="KOXER 1A, 073°" arrows="end" />
+    </route>
+    <route name="LANUX 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW151,WW152,WW170,WW171,LANUX</navaids>
+        <include routeName="11 to WW171" />
+        <line start="WW171" end="LANUX" text="LANUX 1A, 327°" arrows="end" />
+    </route>
+    <route name="LEDVA 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW151,WW152,WW170,LEDVA</navaids>
+        <include routeName="11 to WW152" />
+        <line start="WW152" end="WW170" />
+        <line start="WW170" end="LEDVA" text="LEDVA 1A, 014°" arrows="end" />
+    </route>
+    <route name="LUGIM 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW274,WW177,LUGIM</navaids>
+        <include routeName="11 to WW101" />
+        <line start="WW101" end="WW274" text="279°" />
+        <minAlt position="WW274" value="4.0" />
+        <line start="WW274" end="WW177" text="277°" />
+        <line start="WW177" end="LUGIM" text="LUGIM 1A, 271°" arrows="end" />
+    </route>
+    <route name="MOTIX 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW273,WW176,MOTIX</navaids>
+        <include routeName="11 to WW101" />
+        <line start="WW101" end="WW273" text="289°" />
+        <line start="WW273" end="WW176" text="285°" />
+        <minAlt position="WW273" value="4.0" />
+        <line start="WW176" end="MOTIX" text="MOTIX 1A, 271°" arrows="end" />
+    </route>
+    <route name="OSPEN 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW172,WW173,OSPEN</navaids>
+        <include routeName="11 to WW172" />
+        <line start="WW172" end="WW173" />
+        <minAlt position="WW173" value="8.5" />
+        <line start="WW173" end="OSPEN" text="OSPEN 1A, 202°" arrows="end" />
+    </route>
+    <route name="SASAL 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW261,WW262,SASAL</navaids>
+        <include routeName="11 to WW262" />
+        <line start="WW262" end="SASAL" text="SASAL 1A, 183°" arrows="end" />
+    </route>
+    <route name="SITNI 3A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW275,WW178,SITNI</navaids>
+        <include routeName="11 to WW101" />
+        <line start="WW101" end="WW275" text="267°" />
+        <minAlt position="WW275" value="4.0" />
+        <line start="WW275" end="WW178" text="269°" />
+        <line start="WW178" end="SITNI" text="SITNI 3A, 268°" arrows="end" />
+    </route>
+    <route name="SNU 2A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW261,WW262,SNU</navaids>
+        <include routeName="11 to WW262" />
+        <line start="WW262" end="SNU" text="SNU 2A, 256°" arrows="end" />
+        <loop navpoint="SNU" inboundHeading="350" minHeight="5000" maxHeight="5000" arrows="both" />
+    </route>
+    <route name="STEIN 1A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW261,WW262,STEIN</navaids>
+        <include routeName="11 to WW262" />
+        <line start="WW262" end="STEIN" text="STEIN 1A, 179°" arrows="end" />
+    </route>
+    <route name="UMBIL 2A" displayMode="sid">
+        <activeStartRunways>11</activeStartRunways>
+        <navaids>WW100,WW101,WW172,WW175,UMBIL</navaids>
+        <include routeName="11 to WW172" />
+        <line start="WW172" end="WW175" />
+        <minAlt position="WW175" value="8.5" />
+        <line start="WW175" end="UMBIL" text="UMBIL 2A, 202°" arrows="end" />
+    </route>
     <!-- Ground markings and parking positions -->
     <route name="LOWW taxiways" zoomMax="12" displayMode="optional" color="160,160,80">
     </route>
@@ -388,9 +561,5 @@
     </route>
     <!-- Restricted/prohibited areas -->
     <route name="Prohibited areas" color="255,0,0">
-        <bow center="N41°12'10'',E0°34'07''" radius="3" startAngle="0" extentAngle="360" />
-        <minAlt position="N41°12'10'',E0°34'07''" value="4.0" color="255,0,0" />
-        <bow center="N40°57'09'',E0°51'59''" radius="3" startAngle="0" extentAngle="360" />
-        <minAlt position="N40°57'09'',E0°51'59''" value="3.5" color="255,0,0" />
     </route>
 </routes>
