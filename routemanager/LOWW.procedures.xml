@@ -1,0 +1,2463 @@
+<!-- Copyright © 2015 Alessandro Menti
+
+     This data is free software; you can redistribute it and/or modify it under
+     the terms of the GNU General Public License as published by the Free
+     Software Foundation; either version 2 of the License, or (at your option)
+     any later version.
+
+     This data is distributed in the hope that it will be useful, but WITHOUT
+     ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+     FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+     more details.
+
+     You should have received a copy of the GNU General Public License along
+     with this data; if not, visit <http://www.gnu.org/licenses> or write to
+     the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+     Boston, MA 02110-1301 USA. -->
+<ProceduresDB>
+    <Airport ICAOcode="LOWW">
+        <Sid Name="ADAMA 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW390</Name>
+                <Type>Normal</Type>
+                <Latitude>48.011231</Latitude>
+                <Longitude>17.036533</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>ADAMA</Name>
+                <Type>Normal</Type>
+                <Latitude>47.987778</Latitude>
+                <Longitude>17.341389</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="DITIS 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW151</Name>
+                <Type>Normal</Type>
+                <Latitude>48.10087199999999</Latitude>
+                <Longitude>16.599966</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW152</Name>
+                <Type>Normal</Type>
+                <Latitude>48.289917</Latitude>
+                <Longitude>16.660278</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW170</Name>
+                <Type>Normal</Type>
+                <Latitude>48.440414</Latitude>
+                <Longitude>16.64856899999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW171</Name>
+                <Type>Normal</Type>
+                <Latitude>48.569597</Latitude>
+                <Longitude>15.889206</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW181</Name>
+                <Type>Normal</Type>
+                <Latitude>47.96493899999999</Latitude>
+                <Longitude>16.964808</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>DITIS</Name>
+                <Type>Normal</Type>
+                <Latitude>48.89802</Latitude>
+                <Longitude>15.11636</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="KOXER 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW386</Name>
+                <Type>Normal</Type>
+                <Latitude>48.083200</Latitude>
+                <Longitude>16.772544</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>KOXER</Name>
+                <Type>Normal</Type>
+                <Latitude>48.127500</Latitude>
+                <Longitude>17.048333</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LANUX 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW151</Name>
+                <Type>Normal</Type>
+                <Latitude>48.10087199999999</Latitude>
+                <Longitude>16.599966</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW152</Name>
+                <Type>Normal</Type>
+                <Latitude>48.289917</Latitude>
+                <Longitude>16.660278</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW170</Name>
+                <Type>Normal</Type>
+                <Latitude>48.440414</Latitude>
+                <Longitude>16.64856899999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW171</Name>
+                <Type>Normal</Type>
+                <Latitude>48.569597</Latitude>
+                <Longitude>15.889206</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>LANUX</Name>
+                <Type>Normal</Type>
+                <Latitude>48.88810600000001</Latitude>
+                <Longitude>15.61578899999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LEDVA 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW151</Name>
+                <Type>Normal</Type>
+                <Latitude>48.10087199999999</Latitude>
+                <Longitude>16.599966</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW152</Name>
+                <Type>Normal</Type>
+                <Latitude>48.289917</Latitude>
+                <Longitude>16.660278</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW170</Name>
+                <Type>Normal</Type>
+                <Latitude>48.440414</Latitude>
+                <Longitude>16.64856899999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>LEDVA</Name>
+                <Type>Normal</Type>
+                <Latitude>48.728889</Latitude>
+                <Longitude>16.78916699999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LUGIM 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW101</Name>
+                <Type>Normal</Type>
+                <Latitude>48.024715</Latitude>
+                <Longitude>16.612833</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW274</Name>
+                <Type>Normal</Type>
+                <Latitude>48.075184</Latitude>
+                <Longitude>16.26888299999999</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW177</Name>
+                <Type>Normal</Type>
+                <Latitude>48.159722</Latitude>
+                <Longitude>15.621667</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>LUGIM</Name>
+                <Type>Normal</Type>
+                <Latitude>48.18562</Latitude>
+                <Longitude>15.10902</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="MOTIX 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW101</Name>
+                <Type>Normal</Type>
+                <Latitude>48.024715</Latitude>
+                <Longitude>16.612833</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW273</Name>
+                <Type>Normal</Type>
+                <Latitude>48.118099</Latitude>
+                <Longitude>16.27745099999999</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW176</Name>
+                <Type>Normal</Type>
+                <Latitude>48.26555599999999</Latitude>
+                <Longitude>15.63416699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>MOTIX</Name>
+                <Type>Normal</Type>
+                <Latitude>48.3185</Latitude>
+                <Longitude>14.58564</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="OSPEN 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW101</Name>
+                <Type>Normal</Type>
+                <Latitude>48.024715</Latitude>
+                <Longitude>16.612833</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW172</Name>
+                <Type>Normal</Type>
+                <Latitude>47.872203</Latitude>
+                <Longitude>15.962408</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW173</Name>
+                <Type>Normal</Type>
+                <Latitude>47.824444</Latitude>
+                <Longitude>15.762625</Longitude>
+                <Altitude>8500</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>OSPEN</Name>
+                <Type>Normal</Type>
+                <Latitude>47.48528999999999</Latitude>
+                <Longitude>15.52741999999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SASAL 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW261</Name>
+                <Type>Normal</Type>
+                <Latitude>48.050201</Latitude>
+                <Longitude>16.753633</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW262</Name>
+                <Type>Normal</Type>
+                <Latitude>47.91101799999999</Latitude>
+                <Longitude>16.57649999999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>SASAL</Name>
+                <Type>Normal</Type>
+                <Latitude>47.28472200000001</Latitude>
+                <Longitude>16.47444399999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SITNI 3A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW101</Name>
+                <Type>Normal</Type>
+                <Latitude>48.024715</Latitude>
+                <Longitude>16.612833</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW275</Name>
+                <Type>Normal</Type>
+                <Latitude>48.027534</Latitude>
+                <Longitude>16.241167</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW178</Name>
+                <Type>Normal</Type>
+                <Latitude>48.044716</Latitude>
+                <Longitude>15.60806699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>SITNI</Name>
+                <Type>Normal</Type>
+                <Latitude>48.05422800000001</Latitude>
+                <Longitude>14.83461399999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SNU 2A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW261</Name>
+                <Type>Normal</Type>
+                <Latitude>48.050201</Latitude>
+                <Longitude>16.753633</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW262</Name>
+                <Type>Normal</Type>
+                <Latitude>47.91101799999999</Latitude>
+                <Longitude>16.57649999999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>SNU</Name>
+                <Type>Normal</Type>
+                <Latitude>47.874875</Latitude>
+                <Longitude>16.288436</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="STEIN 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW261</Name>
+                <Type>Normal</Type>
+                <Latitude>48.050201</Latitude>
+                <Longitude>16.753633</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW262</Name>
+                <Type>Normal</Type>
+                <Latitude>47.91101799999999</Latitude>
+                <Longitude>16.57649999999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>STEIN</Name>
+                <Type>Normal</Type>
+                <Latitude>47.4275</Latitude>
+                <Longitude>16.59972199999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="UMBIL 2A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW100</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08981699999999</Latitude>
+                <Longitude>16.6336</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW101</Name>
+                <Type>Normal</Type>
+                <Latitude>48.024715</Latitude>
+                <Longitude>16.612833</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW172</Name>
+                <Type>Normal</Type>
+                <Latitude>47.872203</Latitude>
+                <Longitude>15.962408</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW175</Name>
+                <Type>Normal</Type>
+                <Latitude>47.736481</Latitude>
+                <Longitude>15.867147</Longitude>
+                <Altitude>8500</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>UMBIL</Name>
+                <Type>Normal</Type>
+                <Latitude>47.35331999999999</Latitude>
+                <Longitude>15.60117</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="WGM 1A" Runways="11">
+            <Sid_Waypoint ID="1">
+                <Name>WW151</Name>
+                <Type>Normal</Type>
+                <Latitude>48.10087199999999</Latitude>
+                <Longitude>16.599966</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW152</Name>
+                <Type>Normal</Type>
+                <Latitude>48.289917</Latitude>
+                <Longitude>16.660278</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WGM</Name>
+                <Type>Normal</Type>
+                <Latitude>48.323856</Latitude>
+                <Longitude>16.490953</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="ADAMA 1C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW286</Name>
+                <Type>Normal</Type>
+                <Latitude>47.93288399999999</Latitude>
+                <Longitude>16.49918399999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW387</Name>
+                <Type>Normal</Type>
+                <Latitude>47.9963444444</Latitude>
+                <Longitude>16.7744722222</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW390</Name>
+                <Type>Normal</Type>
+                <Latitude>48.011231</Latitude>
+                <Longitude>17.036533</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>ADAMA</Name>
+                <Type>Normal</Type>
+                <Latitude>47.987778</Latitude>
+                <Longitude>17.341389</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="DITIS 1C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW293</Name>
+                <Type>Normal</Type>
+                <Latitude>48.11528400000001</Latitude>
+                <Longitude>16.473883</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW230</Name>
+                <Type>Normal</Type>
+                <Latitude>48.14333299999999</Latitude>
+                <Longitude>16.20638299999999</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW266</Name>
+                <Type>Normal</Type>
+                <Latitude>48.2369222222</Latitude>
+                <Longitude>16.1374861111</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW171</Name>
+                <Type>Normal</Type>
+                <Latitude>48.569597</Latitude>
+                <Longitude>15.889206</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>WW181</Name>
+                <Type>Normal</Type>
+                <Latitude>47.96493899999999</Latitude>
+                <Longitude>16.964808</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="7">
+                <Name>DITIS</Name>
+                <Type>Normal</Type>
+                <Latitude>48.89802</Latitude>
+                <Longitude>15.11636</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="KOXER 1C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW286</Name>
+                <Type>Normal</Type>
+                <Latitude>47.93288399999999</Latitude>
+                <Longitude>16.49918399999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW387</Name>
+                <Type>Normal</Type>
+                <Latitude>47.9963444444</Latitude>
+                <Longitude>16.7744722222</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>KOXER</Name>
+                <Type>Normal</Type>
+                <Latitude>48.127500</Latitude>
+                <Longitude>17.048333</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LANUX 2C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW293</Name>
+                <Type>Normal</Type>
+                <Latitude>48.11528400000001</Latitude>
+                <Longitude>16.473883</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW230</Name>
+                <Type>Normal</Type>
+                <Latitude>48.14333299999999</Latitude>
+                <Longitude>16.20638299999999</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW266</Name>
+                <Type>Normal</Type>
+                <Latitude>48.2369222222</Latitude>
+                <Longitude>16.1374861111</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW171</Name>
+                <Type>Normal</Type>
+                <Latitude>48.569597</Latitude>
+                <Longitude>15.889206</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>LANUX</Name>
+                <Type>Normal</Type>
+                <Latitude>48.88810600000001</Latitude>
+                <Longitude>15.61578899999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LEDVA 3C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW293</Name>
+                <Type>Normal</Type>
+                <Latitude>48.11528400000001</Latitude>
+                <Longitude>16.473883</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW230</Name>
+                <Type>Normal</Type>
+                <Latitude>48.14333299999999</Latitude>
+                <Longitude>16.20638299999999</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW266</Name>
+                <Type>Normal</Type>
+                <Latitude>48.2369222222</Latitude>
+                <Longitude>16.1374861111</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>LEDVA</Name>
+                <Type>Normal</Type>
+                <Latitude>48.728889</Latitude>
+                <Longitude>16.78916699999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LUGIM 1C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW293</Name>
+                <Type>Normal</Type>
+                <Latitude>48.11528400000001</Latitude>
+                <Longitude>16.473883</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW232</Name>
+                <Type>Normal</Type>
+                <Latitude>48.097984</Latitude>
+                <Longitude>16.3715</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW231</Name>
+                <Type>Normal</Type>
+                <Latitude>48.10083399999999</Latitude>
+                <Longitude>16.20648399999999</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW177</Name>
+                <Type>Normal</Type>
+                <Latitude>48.159722</Latitude>
+                <Longitude>15.621667</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>LUGIM</Name>
+                <Type>Normal</Type>
+                <Latitude>48.18562</Latitude>
+                <Longitude>15.10902</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="MOTIX 1C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW293</Name>
+                <Type>Normal</Type>
+                <Latitude>48.11528400000001</Latitude>
+                <Longitude>16.473883</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW232</Name>
+                <Type>Normal</Type>
+                <Latitude>48.097984</Latitude>
+                <Longitude>16.3715</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW231</Name>
+                <Type>Normal</Type>
+                <Latitude>48.10083399999999</Latitude>
+                <Longitude>16.20648399999999</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW176</Name>
+                <Type>Normal</Type>
+                <Latitude>48.26555599999999</Latitude>
+                <Longitude>15.63416699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>MOTIX</Name>
+                <Type>Normal</Type>
+                <Latitude>48.3185</Latitude>
+                <Longitude>14.58564</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="OSPEN 2C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW300</Name>
+                <Type>Normal</Type>
+                <Latitude>47.955952</Latitude>
+                <Longitude>16.327366</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW172</Name>
+                <Type>Normal</Type>
+                <Latitude>47.872203</Latitude>
+                <Longitude>15.962408</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW173</Name>
+                <Type>Normal</Type>
+                <Latitude>47.824444</Latitude>
+                <Longitude>15.762625</Longitude>
+                <Altitude>8500</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>OSPEN</Name>
+                <Type>Normal</Type>
+                <Latitude>47.48528999999999</Latitude>
+                <Longitude>15.52741999999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SASAL 2C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW375</Name>
+                <Type>Normal</Type>
+                <Latitude>47.96990199999999</Latitude>
+                <Longitude>16.49185599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW370</Name>
+                <Type>Normal</Type>
+                <Latitude>47.879883</Latitude>
+                <Longitude>16.422001</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>SASAL</Name>
+                <Type>Normal</Type>
+                <Latitude>47.28472200000001</Latitude>
+                <Longitude>16.47444399999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SITNI 6C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW295</Name>
+                <Type>Normal</Type>
+                <Latitude>48.09633299999999</Latitude>
+                <Longitude>16.45406699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW233</Name>
+                <Type>Normal</Type>
+                <Latitude>48.03264999999999</Latitude>
+                <Longitude>16.325167</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW178</Name>
+                <Type>Normal</Type>
+                <Latitude>48.044716</Latitude>
+                <Longitude>15.60806699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>SITNI</Name>
+                <Type>Normal</Type>
+                <Latitude>48.05422800000001</Latitude>
+                <Longitude>14.83461399999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SITNI 4X" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW233</Name>
+                <Type>Normal</Type>
+                <Latitude>48.03264999999999</Latitude>
+                <Longitude>16.325167</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW178</Name>
+                <Type>Normal</Type>
+                <Latitude>48.044716</Latitude>
+                <Longitude>15.60806699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>SITNI</Name>
+                <Type>Normal</Type>
+                <Latitude>48.05422800000001</Latitude>
+                <Longitude>14.83461399999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SNU 2C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>SNU</Name>
+                <Type>Normal</Type>
+                <Latitude>47.874875</Latitude>
+                <Longitude>16.288436</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="STEIN 2C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW375</Name>
+                <Type>Normal</Type>
+                <Latitude>47.96990199999999</Latitude>
+                <Longitude>16.49185599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW370</Name>
+                <Type>Normal</Type>
+                <Latitude>47.879883</Latitude>
+                <Longitude>16.422001</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>STEIN</Name>
+                <Type>Normal</Type>
+                <Latitude>47.4275</Latitude>
+                <Longitude>16.59972199999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="UMBIL 4C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW300</Name>
+                <Type>Normal</Type>
+                <Latitude>47.955952</Latitude>
+                <Longitude>16.327366</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW172</Name>
+                <Type>Normal</Type>
+                <Latitude>47.872203</Latitude>
+                <Longitude>15.962408</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW175</Name>
+                <Type>Normal</Type>
+                <Latitude>47.736481</Latitude>
+                <Longitude>15.867147</Longitude>
+                <Altitude>8500</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>UMBIL</Name>
+                <Type>Normal</Type>
+                <Latitude>47.35331999999999</Latitude>
+                <Longitude>15.60117</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="WGM 8C" Runways="29">
+            <Sid_Waypoint ID="1">
+                <Name>(1000)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1000</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>192</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW123</Name>
+                <Type>Normal</Type>
+                <Latitude>48.209999</Latitude>
+                <Longitude>16.540001</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WGM</Name>
+                <Type>Normal</Type>
+                <Latitude>48.323856</Latitude>
+                <Longitude>16.490953</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="ADAMA 1B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW163</Name>
+                <Type>Normal</Type>
+                <Latitude>48.037314</Latitude>
+                <Longitude>16.612986</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW162</Name>
+                <Type>Normal</Type>
+                <Latitude>48.041758</Latitude>
+                <Longitude>16.839875</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW390</Name>
+                <Type>Normal</Type>
+                <Latitude>48.011231</Latitude>
+                <Longitude>17.036533</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>ADAMA</Name>
+                <Type>Normal</Type>
+                <Latitude>47.987778</Latitude>
+                <Longitude>17.341389</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="DITIS 1B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW267</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07008399999999</Latitude>
+                <Longitude>16.59886699999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW160</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1534583333</Latitude>
+                <Longitude>16.7925194444</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW170</Name>
+                <Type>Normal</Type>
+                <Latitude>48.440414</Latitude>
+                <Longitude>16.64856899999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW171</Name>
+                <Type>Normal</Type>
+                <Latitude>48.569597</Latitude>
+                <Longitude>15.889206</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW181</Name>
+                <Type>Normal</Type>
+                <Latitude>47.96493899999999</Latitude>
+                <Longitude>16.964808</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>DITIS</Name>
+                <Type>Normal</Type>
+                <Latitude>48.89802</Latitude>
+                <Longitude>15.11636</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="KOXER 1B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW163</Name>
+                <Type>Normal</Type>
+                <Latitude>48.037314</Latitude>
+                <Longitude>16.612986</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW162</Name>
+                <Type>Normal</Type>
+                <Latitude>48.041758</Latitude>
+                <Longitude>16.839875</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>KOXER</Name>
+                <Type>Normal</Type>
+                <Latitude>48.127500</Latitude>
+                <Longitude>17.048333</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LANUX 4B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW267</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07008399999999</Latitude>
+                <Longitude>16.59886699999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW160</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1534583333</Latitude>
+                <Longitude>16.7925194444</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW170</Name>
+                <Type>Normal</Type>
+                <Latitude>48.440414</Latitude>
+                <Longitude>16.64856899999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW171</Name>
+                <Type>Normal</Type>
+                <Latitude>48.569597</Latitude>
+                <Longitude>15.889206</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>LANUX</Name>
+                <Type>Normal</Type>
+                <Latitude>48.88810600000001</Latitude>
+                <Longitude>15.61578899999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LEDVA 1B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW267</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07008399999999</Latitude>
+                <Longitude>16.59886699999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW160</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1534583333</Latitude>
+                <Longitude>16.7925194444</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW174</Name>
+                <Type>Normal</Type>
+                <Latitude>48.528225</Latitude>
+                <Longitude>16.6912138889</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>LEDVA</Name>
+                <Type>Normal</Type>
+                <Latitude>48.728889</Latitude>
+                <Longitude>16.78916699999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LUGIM 3B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW269</Name>
+                <Type>Normal</Type>
+                <Latitude>47.98472199999999</Latitude>
+                <Longitude>16.70775799999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW265</Name>
+                <Type>Normal</Type>
+                <Latitude>48.02556600000001</Latitude>
+                <Longitude>16.549168</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW379</Name>
+                <Type>Normal</Type>
+                <Latitude>48.02609999999999</Latitude>
+                <Longitude>16.36966699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW381</Name>
+                <Type>Normal</Type>
+                <Latitude>48.08913399999999</Latitude>
+                <Longitude>15.8816</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW177</Name>
+                <Type>Normal</Type>
+                <Latitude>48.159722</Latitude>
+                <Longitude>15.621667</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>LUGIM</Name>
+                <Type>Normal</Type>
+                <Latitude>48.18562</Latitude>
+                <Longitude>15.10902</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="MOTIX 3B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW269</Name>
+                <Type>Normal</Type>
+                <Latitude>47.98472199999999</Latitude>
+                <Longitude>16.70775799999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW265</Name>
+                <Type>Normal</Type>
+                <Latitude>48.02556600000001</Latitude>
+                <Longitude>16.549168</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW379</Name>
+                <Type>Normal</Type>
+                <Latitude>48.02609999999999</Latitude>
+                <Longitude>16.36966699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW382</Name>
+                <Type>Normal</Type>
+                <Latitude>48.148773</Latitude>
+                <Longitude>15.925797</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW176</Name>
+                <Type>Normal</Type>
+                <Latitude>48.26555599999999</Latitude>
+                <Longitude>15.63416699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>MOTIX</Name>
+                <Type>Normal</Type>
+                <Latitude>48.3185</Latitude>
+                <Longitude>14.58564</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="OSPEN 3B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW269</Name>
+                <Type>Normal</Type>
+                <Latitude>47.98472199999999</Latitude>
+                <Longitude>16.70775799999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW378</Name>
+                <Type>Normal</Type>
+                <Latitude>47.928848</Latitude>
+                <Longitude>16.389734</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW172</Name>
+                <Type>Normal</Type>
+                <Latitude>47.872203</Latitude>
+                <Longitude>15.962408</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW173</Name>
+                <Type>Normal</Type>
+                <Latitude>47.824444</Latitude>
+                <Longitude>15.762625</Longitude>
+                <Altitude>8500</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>OSPEN</Name>
+                <Type>Normal</Type>
+                <Latitude>47.48528999999999</Latitude>
+                <Longitude>15.52741999999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SASAL 3B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW268</Name>
+                <Type>Normal</Type>
+                <Latitude>47.987</Latitude>
+                <Longitude>16.63438399999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>SASAL</Name>
+                <Type>Normal</Type>
+                <Latitude>47.28472200000001</Latitude>
+                <Longitude>16.47444399999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SITNI 5B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW269</Name>
+                <Type>Normal</Type>
+                <Latitude>47.98472199999999</Latitude>
+                <Longitude>16.70775799999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW377</Name>
+                <Type>Normal</Type>
+                <Latitude>47.97811499999999</Latitude>
+                <Longitude>16.444616</Longitude>
+                <Altitude>3500</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW380</Name>
+                <Type>Normal</Type>
+                <Latitude>47.99048199999999</Latitude>
+                <Longitude>16.12628399999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW178</Name>
+                <Type>Normal</Type>
+                <Latitude>48.044716</Latitude>
+                <Longitude>15.60806699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>SITNI</Name>
+                <Type>Normal</Type>
+                <Latitude>48.05422800000001</Latitude>
+                <Longitude>14.83461399999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SNU 4B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW269</Name>
+                <Type>Normal</Type>
+                <Latitude>47.98472199999999</Latitude>
+                <Longitude>16.70775799999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>SNU</Name>
+                <Type>Normal</Type>
+                <Latitude>47.874875</Latitude>
+                <Longitude>16.288436</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="STEIN 3B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW268</Name>
+                <Type>Normal</Type>
+                <Latitude>47.987</Latitude>
+                <Longitude>16.63438399999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>STEIN</Name>
+                <Type>Normal</Type>
+                <Latitude>47.4275</Latitude>
+                <Longitude>16.59972199999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="UMBIL 4B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW269</Name>
+                <Type>Normal</Type>
+                <Latitude>47.98472199999999</Latitude>
+                <Longitude>16.70775799999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW378</Name>
+                <Type>Normal</Type>
+                <Latitude>47.928848</Latitude>
+                <Longitude>16.389734</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW172</Name>
+                <Type>Normal</Type>
+                <Latitude>47.872203</Latitude>
+                <Longitude>15.962408</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW175</Name>
+                <Type>Normal</Type>
+                <Latitude>47.736481</Latitude>
+                <Longitude>15.867147</Longitude>
+                <Altitude>8500</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>UMBIL</Name>
+                <Type>Normal</Type>
+                <Latitude>47.35331999999999</Latitude>
+                <Longitude>15.60117</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="WGM 7B" Runways="16">
+            <Sid_Waypoint ID="1">
+                <Name>WW267</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07008399999999</Latitude>
+                <Longitude>16.59886699999999</Longitude>
+                <Speed>205</Speed>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW160</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1534583333</Latitude>
+                <Longitude>16.7925194444</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WGM</Name>
+                <Type>Normal</Type>
+                <Latitude>48.323856</Latitude>
+                <Longitude>16.490953</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="ADAMA 1D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>(1700)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1700</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>340</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW388</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1630361111</Latitude>
+                <Longitude>16.7074</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW389</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1180555556</Latitude>
+                <Longitude>16.8833333333</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW390</Name>
+                <Type>Normal</Type>
+                <Latitude>48.011231</Latitude>
+                <Longitude>17.036533</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>ADAMA</Name>
+                <Type>Normal</Type>
+                <Latitude>47.987778</Latitude>
+                <Longitude>17.341389</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="DITIS 1D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>(1700)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1700</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>340</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW165</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1897944444</Latitude>
+                <Longitude>16.6201194444</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW371</Name>
+                <Type>Normal</Type>
+                <Latitude>48.24129499999999</Latitude>
+                <Longitude>16.666756</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW374</Name>
+                <Type>Normal</Type>
+                <Latitude>48.47255299999999</Latitude>
+                <Longitude>16.462688</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW171</Name>
+                <Type>Normal</Type>
+                <Latitude>48.569597</Latitude>
+                <Longitude>15.889206</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>WW181</Name>
+                <Type>Normal</Type>
+                <Latitude>47.96493899999999</Latitude>
+                <Longitude>16.964808</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="7">
+                <Name>DITIS</Name>
+                <Type>Normal</Type>
+                <Latitude>48.89802</Latitude>
+                <Longitude>15.11636</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="KOXER 1D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>(1700)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1700</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>340</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW164</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1630361111</Latitude>
+                <Longitude>16.7074055556</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW373</Name>
+                <Type>Normal</Type>
+                <Latitude>48.180553</Latitude>
+                <Longitude>16.79526699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>KOXER</Name>
+                <Type>Normal</Type>
+                <Latitude>48.127500</Latitude>
+                <Longitude>17.048333</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LANUX 5D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>(1700)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1700</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>340</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW165</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1897944444</Latitude>
+                <Longitude>16.6201194444</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW371</Name>
+                <Type>Normal</Type>
+                <Latitude>48.24129499999999</Latitude>
+                <Longitude>16.666756</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW374</Name>
+                <Type>Normal</Type>
+                <Latitude>48.47255299999999</Latitude>
+                <Longitude>16.462688</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW171</Name>
+                <Type>Normal</Type>
+                <Latitude>48.569597</Latitude>
+                <Longitude>15.889206</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>LANUX</Name>
+                <Type>Normal</Type>
+                <Latitude>48.88810600000001</Latitude>
+                <Longitude>15.61578899999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LEDVA 3D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>(1700)</Name>
+                <Type>ConstHdgtoAlt</Type>
+                <Latitude>0.000000</Latitude>
+                <Longitude>0.000000</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1700</Altitude>
+                <AltitudeCons>0</AltitudeCons>
+                <AltitudeRestriction>above</AltitudeRestriction>
+                <Hdg_Crs>0</Hdg_Crs>
+                <Hdg_Crs_value>340</Hdg_Crs_value>
+                <Flytype>Fly-by</Flytype>
+                <BankLimit>25</BankLimit>
+                <Sp_Turn>Auto</Sp_Turn>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW165</Name>
+                <Type>Normal</Type>
+                <Latitude>48.1897944444</Latitude>
+                <Longitude>16.6201194444</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW371</Name>
+                <Type>Normal</Type>
+                <Latitude>48.24129499999999</Latitude>
+                <Longitude>16.666756</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>LEDVA</Name>
+                <Type>Normal</Type>
+                <Latitude>48.728889</Latitude>
+                <Longitude>16.78916699999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="LUGIM 2D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>WW304</Name>
+                <Type>Normal</Type>
+                <Latitude>48.13575699999999</Latitude>
+                <Longitude>16.57130199999999</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1300</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW293</Name>
+                <Type>Normal</Type>
+                <Latitude>48.11528400000001</Latitude>
+                <Longitude>16.473883</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW232</Name>
+                <Type>Normal</Type>
+                <Latitude>48.097984</Latitude>
+                <Longitude>16.3715</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW231</Name>
+                <Type>Normal</Type>
+                <Latitude>48.10083399999999</Latitude>
+                <Longitude>16.20648399999999</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW177</Name>
+                <Type>Normal</Type>
+                <Latitude>48.159722</Latitude>
+                <Longitude>15.621667</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>LUGIM</Name>
+                <Type>Normal</Type>
+                <Latitude>48.18562</Latitude>
+                <Longitude>15.10902</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="MOTIX 1D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>WW304</Name>
+                <Type>Normal</Type>
+                <Latitude>48.13575699999999</Latitude>
+                <Longitude>16.57130199999999</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1300</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW293</Name>
+                <Type>Normal</Type>
+                <Latitude>48.11528400000001</Latitude>
+                <Longitude>16.473883</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW230</Name>
+                <Type>Normal</Type>
+                <Latitude>48.14333299999999</Latitude>
+                <Longitude>16.20638299999999</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW176</Name>
+                <Type>Normal</Type>
+                <Latitude>48.26555599999999</Latitude>
+                <Longitude>15.63416699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>MOTIX</Name>
+                <Type>Normal</Type>
+                <Latitude>48.3185</Latitude>
+                <Longitude>14.58564</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="OSPEN 1D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>WW304</Name>
+                <Type>Normal</Type>
+                <Latitude>48.13575699999999</Latitude>
+                <Longitude>16.57130199999999</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1300</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW300</Name>
+                <Type>Normal</Type>
+                <Latitude>47.955952</Latitude>
+                <Longitude>16.327366</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW172</Name>
+                <Type>Normal</Type>
+                <Latitude>47.872203</Latitude>
+                <Longitude>15.962408</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW173</Name>
+                <Type>Normal</Type>
+                <Latitude>47.824444</Latitude>
+                <Longitude>15.762625</Longitude>
+                <Altitude>8500</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>OSPEN</Name>
+                <Type>Normal</Type>
+                <Latitude>47.48528999999999</Latitude>
+                <Longitude>15.52741999999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SASAL 2D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>WW304</Name>
+                <Type>Normal</Type>
+                <Latitude>48.13575699999999</Latitude>
+                <Longitude>16.57130199999999</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1300</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW375</Name>
+                <Type>Normal</Type>
+                <Latitude>47.96990199999999</Latitude>
+                <Longitude>16.49185599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW370</Name>
+                <Type>Normal</Type>
+                <Latitude>47.879883</Latitude>
+                <Longitude>16.422001</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>SASAL</Name>
+                <Type>Normal</Type>
+                <Latitude>47.28472200000001</Latitude>
+                <Longitude>16.47444399999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SITNI 4D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>WW304</Name>
+                <Type>Normal</Type>
+                <Latitude>48.13575699999999</Latitude>
+                <Longitude>16.57130199999999</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1300</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW295</Name>
+                <Type>Normal</Type>
+                <Latitude>48.09633299999999</Latitude>
+                <Longitude>16.45406699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW233</Name>
+                <Type>Normal</Type>
+                <Latitude>48.03264999999999</Latitude>
+                <Longitude>16.325167</Longitude>
+                <Altitude>4000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW178</Name>
+                <Type>Normal</Type>
+                <Latitude>48.044716</Latitude>
+                <Longitude>15.60806699999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>SITNI</Name>
+                <Type>Normal</Type>
+                <Latitude>48.05422800000001</Latitude>
+                <Longitude>14.83461399999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SNU 2D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>WW304</Name>
+                <Type>Normal</Type>
+                <Latitude>48.13575699999999</Latitude>
+                <Longitude>16.57130199999999</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1300</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>SNU</Name>
+                <Type>Normal</Type>
+                <Latitude>47.874875</Latitude>
+                <Longitude>16.288436</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="STEIN 2D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>WW304</Name>
+                <Type>Normal</Type>
+                <Latitude>48.13575699999999</Latitude>
+                <Longitude>16.57130199999999</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1300</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW375</Name>
+                <Type>Normal</Type>
+                <Latitude>47.96990199999999</Latitude>
+                <Longitude>16.49185599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW370</Name>
+                <Type>Normal</Type>
+                <Latitude>47.879883</Latitude>
+                <Longitude>16.422001</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>STEIN</Name>
+                <Type>Normal</Type>
+                <Latitude>47.4275</Latitude>
+                <Longitude>16.59972199999999</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="UMBIL 2D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>WW304</Name>
+                <Type>Normal</Type>
+                <Latitude>48.13575699999999</Latitude>
+                <Longitude>16.57130199999999</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1300</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WW296</Name>
+                <Type>Normal</Type>
+                <Latitude>48.07690000000001</Latitude>
+                <Longitude>16.47211599999999</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="3">
+                <Name>WW300</Name>
+                <Type>Normal</Type>
+                <Latitude>47.955952</Latitude>
+                <Longitude>16.327366</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="4">
+                <Name>WW172</Name>
+                <Type>Normal</Type>
+                <Latitude>47.872203</Latitude>
+                <Longitude>15.962408</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="5">
+                <Name>WW175</Name>
+                <Type>Normal</Type>
+                <Latitude>47.736481</Latitude>
+                <Longitude>15.867147</Longitude>
+                <Altitude>8500</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="6">
+                <Name>UMBIL</Name>
+                <Type>Normal</Type>
+                <Latitude>47.35331999999999</Latitude>
+                <Longitude>15.60117</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="WGM 5D" Runways="34">
+            <Sid_Waypoint ID="1">
+                <Name>WW304</Name>
+                <Type>Normal</Type>
+                <Latitude>48.13575699999999</Latitude>
+                <Longitude>16.57130199999999</Longitude>
+                <Speed>205</Speed>
+                <Altitude>1300</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>WGM</Name>
+                <Type>Normal</Type>
+                <Latitude>48.323856</Latitude>
+                <Longitude>16.490953</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Star Name="ABTAN 1W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>ABTAN</Name>
+                <Type>Normal</Type>
+                <Latitude>47.113611</Latitude>
+                <Longitude>14.495556</Longitude>
+                <Altitude>9000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>WW410</Name>
+                <Type>Normal</Type>
+                <Latitude>47.162503</Latitude>
+                <Longitude>14.779717</Longitude>
+                <Altitude>9000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>NIGSI</Name>
+                <Type>Normal</Type>
+                <Latitude>47.36917</Latitude>
+                <Longitude>16.03611</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="4">
+                <Name>BALAD</Name>
+                <Type>Normal</Type>
+                <Latitude>47.76666699999999</Latitude>
+                <Longitude>16.236944</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="GAMLI 5W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>GAMLI</Name>
+                <Type>Normal</Type>
+                <Latitude>47.90667</Latitude>
+                <Longitude>14.77889</Longitude>
+                <Altitude>9000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>BARUG</Name>
+                <Type>Normal</Type>
+                <Latitude>47.89681999999999</Latitude>
+                <Longitude>15.35553999999999</Longitude>
+                <Altitude>9000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>WW450</Name>
+                <Type>Normal</Type>
+                <Latitude>47.894444</Latitude>
+                <Longitude>15.480833</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="4">
+                <Name>BALAD</Name>
+                <Type>Normal</Type>
+                <Latitude>47.76666699999999</Latitude>
+                <Longitude>16.236944</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="GBG 5W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>GBG</Name>
+                <Type>Normal</Type>
+                <Latitude>46.8869888889</Latitude>
+                <Longitude>15.8003194444</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>WW201</Name>
+                <Type>Normal</Type>
+                <Latitude>46.989517</Latitude>
+                <Longitude>15.85141699999999</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>XANUT</Name>
+                <Type>Normal</Type>
+                <Latitude>47.11627</Latitude>
+                <Longitude>15.91188</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="4">
+                <Name>WW202</Name>
+                <Type>Normal</Type>
+                <Latitude>47.242699</Latitude>
+                <Longitude>15.97385</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="5">
+                <Name>NIGSI</Name>
+                <Type>Normal</Type>
+                <Latitude>47.36917</Latitude>
+                <Longitude>16.03611</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="6">
+                <Name>BALAD</Name>
+                <Type>Normal</Type>
+                <Latitude>47.76666699999999</Latitude>
+                <Longitude>16.236944</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="GRZ 6W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>GRZ</Name>
+                <Type>Normal</Type>
+                <Latitude>46.95536700000001</Latitude>
+                <Longitude>15.449431</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>XANUT</Name>
+                <Type>Normal</Type>
+                <Latitude>47.11627</Latitude>
+                <Longitude>15.91188</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>WW202</Name>
+                <Type>Normal</Type>
+                <Latitude>47.242699</Latitude>
+                <Longitude>15.97385</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="4">
+                <Name>NIGSI</Name>
+                <Type>Normal</Type>
+                <Latitude>47.36917</Latitude>
+                <Longitude>16.03611</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="5">
+                <Name>BALAD</Name>
+                <Type>Normal</Type>
+                <Latitude>47.76666699999999</Latitude>
+                <Longitude>16.236944</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="LANUX 6W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>LANUX</Name>
+                <Type>Normal</Type>
+                <Latitude>48.88810600000001</Latitude>
+                <Longitude>15.61578899999999</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>NERDU</Name>
+                <Type>Normal</Type>
+                <Latitude>48.48149999999999</Latitude>
+                <Longitude>16.09926</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="LNZ 8W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>LNZ</Name>
+                <Type>Normal</Type>
+                <Latitude>48.229711</Latitude>
+                <Longitude>14.103156</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>MASUR</Name>
+                <Type>Normal</Type>
+                <Latitude>48.52009999999999</Latitude>
+                <Longitude>15.43929</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>TEMTA</Name>
+                <Type>Normal</Type>
+                <Latitude>48.50750000000001</Latitude>
+                <Longitude>15.66361</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="4">
+                <Name>NERDU</Name>
+                <Type>Normal</Type>
+                <Latitude>48.48149999999999</Latitude>
+                <Longitude>16.09926</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="MASUR 2W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>MASUR</Name>
+                <Type>Normal</Type>
+                <Latitude>48.52009999999999</Latitude>
+                <Longitude>15.43929</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>TEMTA</Name>
+                <Type>Normal</Type>
+                <Latitude>48.50750000000001</Latitude>
+                <Longitude>15.66361</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>NERDU</Name>
+                <Type>Normal</Type>
+                <Latitude>48.48149999999999</Latitude>
+                <Longitude>16.09926</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="MIKOV 7W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>MIKOV</Name>
+                <Type>Normal</Type>
+                <Latitude>48.784722</Latitude>
+                <Longitude>16.62111099999999</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>MABOD</Name>
+                <Type>Normal</Type>
+                <Latitude>48.57455999999999</Latitude>
+                <Longitude>16.69010000000001</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="NATEX 1W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>NATEX</Name>
+                <Type>Normal</Type>
+                <Latitude>47.746944</Latitude>
+                <Longitude>17.500000</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>PESAT</Name>
+                <Type>Normal</Type>
+                <Latitude>47.71500000000001</Latitude>
+                <Longitude>17.053056</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="OBUTI 1W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>OBUTI</Name>
+                <Type>Normal</Type>
+                <Latitude>46.3783027778</Latitude>
+                <Longitude>16.27405</Longitude>
+                <Altitude>13000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>WW411</Name>
+                <Type>Normal</Type>
+                <Latitude>48.12666699999999</Latitude>
+                <Longitude>16.70499999999999</Longitude>
+                <Altitude>13000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>NIGSI</Name>
+                <Type>Normal</Type>
+                <Latitude>47.36917</Latitude>
+                <Longitude>16.03611</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="4">
+                <Name>BALAD</Name>
+                <Type>Normal</Type>
+                <Latitude>47.76666699999999</Latitude>
+                <Longitude>16.236944</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="REKLU 1W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>REKLU</Name>
+                <Type>Normal</Type>
+                <Latitude>48.58749999999999</Latitude>
+                <Longitude>16.93778</Longitude>
+                <Altitude>18000</Altitude>
+                <AltitudeRestriction>at</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>MABOD</Name>
+                <Type>Normal</Type>
+                <Latitude>48.57455999999999</Latitude>
+                <Longitude>16.69010000000001</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="TOVKA 2W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>TOVKA</Name>
+                <Type>Normal</Type>
+                <Latitude>48.27015999999999</Latitude>
+                <Longitude>16.92632</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>WW400</Name>
+                <Type>Normal</Type>
+                <Latitude>48.279999</Latitude>
+                <Longitude>16.85</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>WW440</Name>
+                <Type>Normal</Type>
+                <Latitude>48.349998</Latitude>
+                <Longitude>16.716667</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="4">
+                <Name>MABOD</Name>
+                <Type>Normal</Type>
+                <Latitude>48.57455999999999</Latitude>
+                <Longitude>16.69010000000001</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="VENEN 2W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>VENEN</Name>
+                <Type>Normal</Type>
+                <Latitude>48.56655300000001</Latitude>
+                <Longitude>14.541344</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>WW190</Name>
+                <Type>Normal</Type>
+                <Latitude>48.55558</Latitude>
+                <Longitude>14.76598599999999</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>WW191</Name>
+                <Type>Normal</Type>
+                <Latitude>48.54418199999999</Latitude>
+                <Longitude>14.990517</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="4">
+                <Name>WW192</Name>
+                <Type>Normal</Type>
+                <Latitude>48.532349</Latitude>
+                <Longitude>15.214967</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="5">
+                <Name>MASUR</Name>
+                <Type>Normal</Type>
+                <Latitude>48.52009999999999</Latitude>
+                <Longitude>15.43929</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="6">
+                <Name>TEMTA</Name>
+                <Type>Normal</Type>
+                <Latitude>48.50750000000001</Latitude>
+                <Longitude>15.66361</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="7">
+                <Name>NERDU</Name>
+                <Type>Normal</Type>
+                <Latitude>48.48149999999999</Latitude>
+                <Longitude>16.09926</Longitude>
+                <Altitude>6000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+        <Star Name="XANUT 1W" Runways="11,16,29,34">
+            <Star_Waypoint ID="1">
+                <Name>XANUT</Name>
+                <Type>Normal</Type>
+                <Latitude>47.11627</Latitude>
+                <Longitude>15.91188</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="2">
+                <Name>WW202</Name>
+                <Type>Normal</Type>
+                <Latitude>47.242699</Latitude>
+                <Longitude>15.97385</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="3">
+                <Name>NIGSI</Name>
+                <Type>Normal</Type>
+                <Latitude>47.36917</Latitude>
+                <Longitude>16.03611</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+            <Star_Waypoint ID="4">
+                <Name>BALAD</Name>
+                <Type>Normal</Type>
+                <Latitude>47.76666699999999</Latitude>
+                <Longitude>16.236944</Longitude>
+                <Altitude>8000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+    </Airport>
+</ProceduresDB>
